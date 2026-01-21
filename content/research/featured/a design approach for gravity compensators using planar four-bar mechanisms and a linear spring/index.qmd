@@ -1,0 +1,6 @@
+---
+title: "A Design Approach for Gravity Compensators Using Planar Four-Bar Mechanisms and a Linear Spring"
+image: "four-bar_robot.avif"
+description: "This project develops a design approach for gravity compensators using planar four-bar mechanisms and a linear spring. This work enables the development of a class of gravity compensators encompassing 42 different types, which are characterized by high performance and kinematic simplicity. The gravity compensators are constructed by combining planar four-bar mechanisms with a rotating mass and attaching a linear spring to each mechanism, then permuting the springs. The parameters of the gravity compensators are derived from an optimization procedure that minimizes the actuator torque within a specified balancing zone. The performances of the gravity compensators were demonstrated via both numerical examples and experiments. The results showed their design feasibilities and high performances in which a torque reduction rate of 87.8% was practically achieved. Lastly, an application of the proposed gravity compensators to serial robots is described. It was found that the actuator torque of a serial robot over a prescribed workspace could theoretically be reduced by 98.2%. A prototype of a serial robot was also built to validate the applicability of the gravity compensators."
+date: 2024-06-10
+---
