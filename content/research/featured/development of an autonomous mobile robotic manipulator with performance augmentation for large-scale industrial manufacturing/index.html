@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2024-06-10">
-<meta name="description" content="This project develops a design approach for gravity compensators using planar four-bar mechanisms and a linear spring. This work enables the development of a class of gravity compensators encompassing 42 different types, which are characterized by high performance and kinematic simplicity. The gravity compensators are constructed by combining planar four-bar mechanisms with a rotating mass and attaching a linear spring to each mechanism, then permuting the springs. The parameters of the gravity compensators are derived from an optimization procedure that minimizes the actuator torque within a specified balancing zone. The performances of the gravity compensators were demonstrated via both numerical examples and experiments. The results showed their design feasibilities and high performances in which a torque reduction rate of 87.8% was practically achieved. Lastly, an application of the proposed gravity compensators to serial robots is described. It was found that the actuator torque of a serial robot over a prescribed workspace could theoretically be reduced by 98.2%. A prototype of a serial robot was also built to validate the applicability of the gravity compensators.">
+<meta name="dcterms.date" content="2022-12-13">
+<meta name="description" content="The proposed research project is directly in line with advanced manufacturing by developing a novel autonomous mobile robotic manipulator with performance augmentation for large-scale manufacturing. The designed robotic manipulator consists of a mobile vehicle and a robotic platform, and they will be integrated with an industrial robot to perform manufacturing processes. The performance augmentation of the robotic manipulator will be realized through the design concepts, methods, and technologies presented in this research. For details, a new parallel mechanism will be introduced to construct the robotic platform with high stiffness, load capability, dexterity, and manipulability. A gravity balancing (or gravity compensation) method will be applied to constitute a zero-gravity behavior (the effect of gravity is theoretically zero) for the robotic platform. The balancing design will help the robotic platform to operate with very small input torques and consumed energy while improving the safety, accuracy, and performance reliability of the robot. The joining of a robotic platform and an industrial robot (the combined manipulator is known as the hybrid parallel-serial robotic manipulator) will ensure high flexibility, functionality, and versatility to fulfill the manufacturing requirements. Implementing the mobile vehicle to the hybrid robotic manipulator will increase the mobility of the robot, making it adaptable for multiple operation tasks in a large volume, e.g., a whole manufacturing factory. The use of a real-time navigation system will guide and coordinate the robot autonomously to desired locations. Last, the developed mobile robotic manipulator will be taken to pursue experiments with actual manufacturing tasks to demonstrate the high value-added and promising research direction in advanced robotic manufacturing.">
 
-<title>A Design Approach for Gravity Compensators Using Planar Four-Bar Mechanisms and a Linear Spring – Interactive Robot Design (IRoD)</title>
+<title>Development of an Autonomous Mobile Robotic Manipulator with Performance Augmentation for Large-Scale Industrial Manufacturing – Interactive Robot Design (IRoD)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,7 +22,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -44,9 +64,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../../site_libs/bootstrap/bootstrap-ffa9a6279353761231ec249df0a7fdd3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../../../site_libs/bootstrap/bootstrap-dark-24772959a0e306aba8d7698078628ce7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../../../site_libs/bootstrap/bootstrap-ffa9a6279353761231ec249df0a7fdd3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../../../site_libs/bootstrap/bootstrap-960d9d362f81d399278ec3e29b622b37.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../../site_libs/bootstrap/bootstrap-dark-e7f4145358ce1d0cd37d8d374dbb44f9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../../site_libs/bootstrap/bootstrap-960d9d362f81d399278ec3e29b622b37.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -302,31 +322,46 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <div class="quarto-about-marquee">
   <div class="about-image-container">
-    <img src="four-bar_robot.avif" class="about-image " style="width: 100%;">
+    <img src="robot-manufacturing.avif" class="about-image " style="width: 100%;">
   </div>
   <div class="about-contents">
     <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">A Design Approach for Gravity Compensators Using Planar Four-Bar Mechanisms and a Linear Spring</h1>
+<h1 class="title">Development of an Autonomous Mobile Robotic Manipulator with Performance Augmentation for Large-Scale Industrial Manufacturing</h1>
 </div>
 <div>
   <div class="description">
-    This project develops a design approach for gravity compensators using planar four-bar mechanisms and a linear spring. This work enables the development of a class of gravity compensators encompassing 42 different types, which are characterized by high performance and kinematic simplicity. The gravity compensators are constructed by combining planar four-bar mechanisms with a rotating mass and attaching a linear spring to each mechanism, then permuting the springs. The parameters of the gravity compensators are derived from an optimization procedure that minimizes the actuator torque within a specified balancing zone. The performances of the gravity compensators were demonstrated via both numerical examples and experiments. The results showed their design feasibilities and high performances in which a torque reduction rate of 87.8% was practically achieved. Lastly, an application of the proposed gravity compensators to serial robots is described. It was found that the actuator torque of a serial robot over a prescribed workspace could theoretically be reduced by 98.2%. A prototype of a serial robot was also built to validate the applicability of the gravity compensators.
+    The proposed research project is directly in line with advanced manufacturing by developing a novel autonomous mobile robotic manipulator with performance augmentation for large-scale manufacturing. The designed robotic manipulator consists of a mobile vehicle and a robotic platform, and they will be integrated with an industrial robot to perform manufacturing processes. The performance augmentation of the robotic manipulator will be realized through the design concepts, methods, and technologies presented in this research. For details, a new parallel mechanism will be introduced to construct the robotic platform with high stiffness, load capability, dexterity, and manipulability. A gravity balancing (or gravity compensation) method will be applied to constitute a zero-gravity behavior (the effect of gravity is theoretically zero) for the robotic platform. The balancing design will help the robotic platform to operate with very small input torques and consumed energy while improving the safety, accuracy, and performance reliability of the robot. The joining of a robotic platform and an industrial robot (the combined manipulator is known as the hybrid parallel-serial robotic manipulator) will ensure high flexibility, functionality, and versatility to fulfill the manufacturing requirements. Implementing the mobile vehicle to the hybrid robotic manipulator will increase the mobility of the robot, making it adaptable for multiple operation tasks in a large volume, e.g., a whole manufacturing factory. The use of a real-time navigation system will guide and coordinate the robot autonomously to desired locations. Last, the developed mobile robotic manipulator will be taken to pursue experiments with actual manufacturing tasks to demonstrate the high value-added and promising research direction in advanced robotic manufacturing.
   </div>
 </div>
 <div class="quarto-title-meta">
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">June 10, 2024</p>
+      <p class="date">December 13, 2022</p>
     </div>
   </div>
   </div>
 </header> <main class="content" id="quarto-document-content">
 
+<p>Featured in <span class="citation" data-cites="nguyen2022a nguyen2022b nguyen2022c nguyen2021"><a href="#ref-nguyen2022a" role="doc-biblioref">[1]</a>–<a href="#ref-nguyen2021" role="doc-biblioref">[4]</a></span>.</p>
 
 
-</main> 
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
+<div id="ref-nguyen2022a" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] </div><div class="csl-right-inline">V. L. Nguyen, <span>“Gravity balancing of a two-degree-of-freedom parallel robotic platform with variable payloads,”</span> <em>Journal of Mechanical Design</em>, vol. 145, no. 2, Dec. 2022, doi: <a href="https://doi.org/10.1115/1.4056258">10.1115/1.4056258</a>.</div>
+</div>
+<div id="ref-nguyen2022b" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] </div><div class="csl-right-inline">V. L. Nguyen, <span>“Realization of a gear-spring balancer with variable payloads and its application to serial robots,”</span> <em>Journal of Mechanisms and Robotics</em>, vol. 15, no. 4, Nov. 2022, doi: <a href="https://doi.org/10.1115/1.4055739">10.1115/1.4055739</a>.</div>
+</div>
+<div id="ref-nguyen2022c" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] </div><div class="csl-right-inline">V. L. Nguyen, <span>“Design of a compact gear-spring mechanism for static balancing of variable payloads,”</span> <em>Journal of Mechanical Design</em>, vol. 144, no. 12, Aug. 2022, doi: <a href="https://doi.org/10.1115/1.4055121">10.1115/1.4055121</a>.</div>
+</div>
+<div id="ref-nguyen2021" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[4] </div><div class="csl-right-inline">V. L. Nguyen, <span>“Gravity balancing design of a 3-DOF hybrid robotic manipulator with variable payloads,”</span> Nov. 2021, doi: <a href="https://doi.org/10.1115/imece2021-69857">10.1115/imece2021-69857</a>.</div>
+</div>
+</div></section></div></main> 
   </div>
 </div>
  <!-- /main -->

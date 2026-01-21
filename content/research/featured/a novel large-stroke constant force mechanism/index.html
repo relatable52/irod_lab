@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2022-12-13">
-<meta name="description" content="The proposed research project is directly in line with advanced manufacturing by developing a novel autonomous mobile robotic manipulator with performance augmentation for large-scale manufacturing. The designed robotic manipulator consists of a mobile vehicle and a robotic platform, and they will be integrated with an industrial robot to perform manufacturing processes. The performance augmentation of the robotic manipulator will be realized through the design concepts, methods, and technologies presented in this research. For details, a new parallel mechanism will be introduced to construct the robotic platform with high stiffness, load capability, dexterity, and manipulability. A gravity balancing (or gravity compensation) method will be applied to constitute a zero-gravity behavior (the effect of gravity is theoretically zero) for the robotic platform. The balancing design will help the robotic platform to operate with very small input torques and consumed energy while improving the safety, accuracy, and performance reliability of the robot. The joining of a robotic platform and an industrial robot (the combined manipulator is known as the hybrid parallel-serial robotic manipulator) will ensure high flexibility, functionality, and versatility to fulfill the manufacturing requirements. Implementing the mobile vehicle to the hybrid robotic manipulator will increase the mobility of the robot, making it adaptable for multiple operation tasks in a large volume, e.g., a whole manufacturing factory. The use of a real-time navigation system will guide and coordinate the robot autonomously to desired locations. Last, the developed mobile robotic manipulator will be taken to pursue experiments with actual manufacturing tasks to demonstrate the high value-added and promising research direction in advanced robotic manufacturing.">
+<meta name="dcterms.date" content="2023-05-26">
+<meta name="description" content="This work presents the design of a novel adjustable constant-force mechanism (CFM) using a geared Sarrus linkage and a linear spring. The uniqueness of this design is that it provides a constant force over a wide range of displacement and the constant-force level can be adjusted energy-freely by varying the spring position without a preload. In this work, the construction, geometric constraints, and constant-force design of the CFM are expressed. The desired parameters of the mechanism, with consideration of gear friction, are also determined. A numerical example is then given to illustrate the constant-force performance and the effect of gear friction. This paper also shows a prototype of a CFM and experimental studies on it. It was found that the CFM delivered a constant force of up to 20 N within a stroke of 140 mm, and the force error was less than 6%. Moreover, the CFM compensated for masses of 1 and 2 kg with a torque reduction of more than 90%.">
 
-<title>Development of an Autonomous Mobile Robotic Manipulator with Performance Augmentation for Large-Scale Industrial Manufacturing – Interactive Robot Design (IRoD)</title>
+<title>A Novel Large-Stroke Constant Force Mechanism – Interactive Robot Design (IRoD)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -64,9 +64,9 @@ div.csl-indent {
 <link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../../site_libs/bootstrap/bootstrap-ffa9a6279353761231ec249df0a7fdd3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../../../site_libs/bootstrap/bootstrap-dark-24772959a0e306aba8d7698078628ce7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../../../site_libs/bootstrap/bootstrap-ffa9a6279353761231ec249df0a7fdd3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../../../site_libs/bootstrap/bootstrap-960d9d362f81d399278ec3e29b622b37.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../../site_libs/bootstrap/bootstrap-dark-e7f4145358ce1d0cd37d8d374dbb44f9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../../site_libs/bootstrap/bootstrap-960d9d362f81d399278ec3e29b622b37.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -322,44 +322,38 @@ div.csl-indent {
 <!-- main -->
 <div class="quarto-about-marquee">
   <div class="about-image-container">
-    <img src="robot-manufacturing.avif" class="about-image " style="width: 100%;">
+    <img src="large-stroke.avif" class="about-image " style="width: 100%;">
   </div>
   <div class="about-contents">
     <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Development of an Autonomous Mobile Robotic Manipulator with Performance Augmentation for Large-Scale Industrial Manufacturing</h1>
+<h1 class="title">A Novel Large-Stroke Constant Force Mechanism</h1>
 </div>
 <div>
   <div class="description">
-    The proposed research project is directly in line with advanced manufacturing by developing a novel autonomous mobile robotic manipulator with performance augmentation for large-scale manufacturing. The designed robotic manipulator consists of a mobile vehicle and a robotic platform, and they will be integrated with an industrial robot to perform manufacturing processes. The performance augmentation of the robotic manipulator will be realized through the design concepts, methods, and technologies presented in this research. For details, a new parallel mechanism will be introduced to construct the robotic platform with high stiffness, load capability, dexterity, and manipulability. A gravity balancing (or gravity compensation) method will be applied to constitute a zero-gravity behavior (the effect of gravity is theoretically zero) for the robotic platform. The balancing design will help the robotic platform to operate with very small input torques and consumed energy while improving the safety, accuracy, and performance reliability of the robot. The joining of a robotic platform and an industrial robot (the combined manipulator is known as the hybrid parallel-serial robotic manipulator) will ensure high flexibility, functionality, and versatility to fulfill the manufacturing requirements. Implementing the mobile vehicle to the hybrid robotic manipulator will increase the mobility of the robot, making it adaptable for multiple operation tasks in a large volume, e.g., a whole manufacturing factory. The use of a real-time navigation system will guide and coordinate the robot autonomously to desired locations. Last, the developed mobile robotic manipulator will be taken to pursue experiments with actual manufacturing tasks to demonstrate the high value-added and promising research direction in advanced robotic manufacturing.
+    This work presents the design of a novel adjustable constant-force mechanism (CFM) using a geared Sarrus linkage and a linear spring. The uniqueness of this design is that it provides a constant force over a wide range of displacement and the constant-force level can be adjusted energy-freely by varying the spring position without a preload. In this work, the construction, geometric constraints, and constant-force design of the CFM are expressed. The desired parameters of the mechanism, with consideration of gear friction, are also determined. A numerical example is then given to illustrate the constant-force performance and the effect of gear friction. This paper also shows a prototype of a CFM and experimental studies on it. It was found that the CFM delivered a constant force of up to 20 N within a stroke of 140 mm, and the force error was less than 6%. Moreover, the CFM compensated for masses of 1 and 2 kg with a torque reduction of more than 90%.
   </div>
 </div>
 <div class="quarto-title-meta">
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">December 13, 2022</p>
+      <p class="date">May 26, 2023</p>
     </div>
   </div>
   </div>
 </header> <main class="content" id="quarto-document-content">
 
-<p>Featured in <span class="citation" data-cites="nguyen2022a nguyen2022b nguyen2022c nguyen2021"><a href="#ref-nguyen2022a" role="doc-biblioref">[1]</a>–<a href="#ref-nguyen2021" role="doc-biblioref">[4]</a></span>.</p>
+<p>Featured in <span class="citation" data-cites="nguyen2023novel"><a href="#ref-nguyen2023novel" role="doc-biblioref">[1]</a></span> and <span class="citation" data-cites="nguyen2023design"><a href="#ref-nguyen2023design" role="doc-biblioref">[2]</a></span>.</p>
 
 
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
-<div id="ref-nguyen2022a" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[1] </div><div class="csl-right-inline">V. L. Nguyen, <span>“Gravity balancing of a two-degree-of-freedom parallel robotic platform with variable payloads,”</span> <em>Journal of Mechanical Design</em>, vol. 145, no. 2, Dec. 2022, doi: <a href="https://doi.org/10.1115/1.4056258">10.1115/1.4056258</a>.</div>
+<div id="ref-nguyen2023novel" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] </div><div class="csl-right-inline">V. L. Nguyen, <span>“A novel adjustable constant-force mechanism based on spring and gear transmission,”</span> in <em>New advances in mechanisms, transmissions and applications</em>, 2023, pp. 382–391.</div>
 </div>
-<div id="ref-nguyen2022b" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[2] </div><div class="csl-right-inline">V. L. Nguyen, <span>“Realization of a gear-spring balancer with variable payloads and its application to serial robots,”</span> <em>Journal of Mechanisms and Robotics</em>, vol. 15, no. 4, Nov. 2022, doi: <a href="https://doi.org/10.1115/1.4055739">10.1115/1.4055739</a>.</div>
-</div>
-<div id="ref-nguyen2022c" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[3] </div><div class="csl-right-inline">V. L. Nguyen, <span>“Design of a compact gear-spring mechanism for static balancing of variable payloads,”</span> <em>Journal of Mechanical Design</em>, vol. 144, no. 12, Aug. 2022, doi: <a href="https://doi.org/10.1115/1.4055121">10.1115/1.4055121</a>.</div>
-</div>
-<div id="ref-nguyen2021" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[4] </div><div class="csl-right-inline">V. L. Nguyen, <span>“Gravity balancing design of a 3-DOF hybrid robotic manipulator with variable payloads,”</span> Nov. 2021, doi: <a href="https://doi.org/10.1115/imece2021-69857">10.1115/imece2021-69857</a>.</div>
+<div id="ref-nguyen2023design" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] </div><div class="csl-right-inline">V. L. Nguyen, <span>“Design of an adjustable constant-force mechanism using a geared sarrus linkage and spring,”</span> <em>Mechanism and Machine Theory</em>, vol. 189, p. 105417, 2023, doi: <a href="https://doi.org/10.1016/j.mechmachtheory.2023.105417">https://doi.org/10.1016/j.mechmachtheory.2023.105417</a>.</div>
 </div>
 </div></section></div></main> 
   </div>

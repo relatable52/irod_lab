@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-05-26">
-<meta name="description" content="This work presents the design of a novel adjustable constant-force mechanism (CFM) using a geared Sarrus linkage and a linear spring. The uniqueness of this design is that it provides a constant force over a wide range of displacement and the constant-force level can be adjusted energy-freely by varying the spring position without a preload. In this work, the construction, geometric constraints, and constant-force design of the CFM are expressed. The desired parameters of the mechanism, with consideration of gear friction, are also determined. A numerical example is then given to illustrate the constant-force performance and the effect of gear friction. This paper also shows a prototype of a CFM and experimental studies on it. It was found that the CFM delivered a constant force of up to 20 N within a stroke of 140 mm, and the force error was less than 6%. Moreover, the CFM compensated for masses of 1 and 2 kg with a torque reduction of more than 90%.">
+<meta name="dcterms.date" content="2024-06-10">
+<meta name="description" content="This project develops a design approach for gravity compensators using planar four-bar mechanisms and a linear spring. This work enables the development of a class of gravity compensators encompassing 42 different types, which are characterized by high performance and kinematic simplicity. The gravity compensators are constructed by combining planar four-bar mechanisms with a rotating mass and attaching a linear spring to each mechanism, then permuting the springs. The parameters of the gravity compensators are derived from an optimization procedure that minimizes the actuator torque within a specified balancing zone. The performances of the gravity compensators were demonstrated via both numerical examples and experiments. The results showed their design feasibilities and high performances in which a torque reduction rate of 87.8% was practically achieved. Lastly, an application of the proposed gravity compensators to serial robots is described. It was found that the actuator torque of a serial robot over a prescribed workspace could theoretically be reduced by 98.2%. A prototype of a serial robot was also built to validate the applicability of the gravity compensators.">
 
-<title>A Novel Large-Stroke Constant Force Mechanism – Interactive Robot Design (IRoD)</title>
+<title>A Design Approach for Gravity Compensators Using Planar Four-Bar Mechanisms and a Linear Spring – Interactive Robot Design (IRoD)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,27 +22,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="../../../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -64,9 +44,9 @@ div.csl-indent {
 <link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../../site_libs/bootstrap/bootstrap-ffa9a6279353761231ec249df0a7fdd3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../../../site_libs/bootstrap/bootstrap-dark-24772959a0e306aba8d7698078628ce7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../../../site_libs/bootstrap/bootstrap-ffa9a6279353761231ec249df0a7fdd3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../../../site_libs/bootstrap/bootstrap-960d9d362f81d399278ec3e29b622b37.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../../site_libs/bootstrap/bootstrap-dark-e7f4145358ce1d0cd37d8d374dbb44f9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../../site_libs/bootstrap/bootstrap-960d9d362f81d399278ec3e29b622b37.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -322,40 +302,31 @@ div.csl-indent {
 <!-- main -->
 <div class="quarto-about-marquee">
   <div class="about-image-container">
-    <img src="large-stroke.avif" class="about-image " style="width: 100%;">
+    <img src="four-bar_robot.avif" class="about-image " style="width: 100%;">
   </div>
   <div class="about-contents">
     <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">A Novel Large-Stroke Constant Force Mechanism</h1>
+<h1 class="title">A Design Approach for Gravity Compensators Using Planar Four-Bar Mechanisms and a Linear Spring</h1>
 </div>
 <div>
   <div class="description">
-    This work presents the design of a novel adjustable constant-force mechanism (CFM) using a geared Sarrus linkage and a linear spring. The uniqueness of this design is that it provides a constant force over a wide range of displacement and the constant-force level can be adjusted energy-freely by varying the spring position without a preload. In this work, the construction, geometric constraints, and constant-force design of the CFM are expressed. The desired parameters of the mechanism, with consideration of gear friction, are also determined. A numerical example is then given to illustrate the constant-force performance and the effect of gear friction. This paper also shows a prototype of a CFM and experimental studies on it. It was found that the CFM delivered a constant force of up to 20 N within a stroke of 140 mm, and the force error was less than 6%. Moreover, the CFM compensated for masses of 1 and 2 kg with a torque reduction of more than 90%.
+    This project develops a design approach for gravity compensators using planar four-bar mechanisms and a linear spring. This work enables the development of a class of gravity compensators encompassing 42 different types, which are characterized by high performance and kinematic simplicity. The gravity compensators are constructed by combining planar four-bar mechanisms with a rotating mass and attaching a linear spring to each mechanism, then permuting the springs. The parameters of the gravity compensators are derived from an optimization procedure that minimizes the actuator torque within a specified balancing zone. The performances of the gravity compensators were demonstrated via both numerical examples and experiments. The results showed their design feasibilities and high performances in which a torque reduction rate of 87.8% was practically achieved. Lastly, an application of the proposed gravity compensators to serial robots is described. It was found that the actuator torque of a serial robot over a prescribed workspace could theoretically be reduced by 98.2%. A prototype of a serial robot was also built to validate the applicability of the gravity compensators.
   </div>
 </div>
 <div class="quarto-title-meta">
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 26, 2023</p>
+      <p class="date">June 10, 2024</p>
     </div>
   </div>
   </div>
 </header> <main class="content" id="quarto-document-content">
 
-<p>Featured in <span class="citation" data-cites="nguyen2023novel"><a href="#ref-nguyen2023novel" role="doc-biblioref">[1]</a></span> and <span class="citation" data-cites="nguyen2023design"><a href="#ref-nguyen2023design" role="doc-biblioref">[2]</a></span>.</p>
 
 
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
-<div id="ref-nguyen2023novel" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[1] </div><div class="csl-right-inline">V. L. Nguyen, <span>“A novel adjustable constant-force mechanism based on spring and gear transmission,”</span> in <em>New advances in mechanisms, transmissions and applications</em>, 2023, pp. 382–391.</div>
-</div>
-<div id="ref-nguyen2023design" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[2] </div><div class="csl-right-inline">V. L. Nguyen, <span>“Design of an adjustable constant-force mechanism using a geared sarrus linkage and spring,”</span> <em>Mechanism and Machine Theory</em>, vol. 189, p. 105417, 2023, doi: <a href="https://doi.org/10.1016/j.mechmachtheory.2023.105417">https://doi.org/10.1016/j.mechmachtheory.2023.105417</a>.</div>
-</div>
-</div></section></div></main> 
+</main> 
   </div>
 </div>
  <!-- /main -->

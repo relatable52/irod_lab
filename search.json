@@ -1,31 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Interactive Robot Design Lab",
+    "objectID": "content/people/members/tri.nvt/index.html",
+    "href": "content/people/members/tri.nvt/index.html",
+    "title": "Nguyen Van Thanh Tri",
     "section": "",
-    "text": "Interactive Robot Design (IRod) Group is led by Dr. Nguyen Vu Linh at the College of Engineering and Computer Science, VinUniversity.\nIRod Group studies Advanced Mechanism Design, focusing on how reconfigurable and compliant systems can enable safer physical interactions. We apply this research to build the next generation of industrial grippers, surgical robots, and energy-harvesting systems. We are dedicated to solving challenges in human-robot coexistence through intelligent mechanical design.\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "content/research/featured/mobile-manipulator-2024/index.html",
-    "href": "content/research/featured/mobile-manipulator-2024/index.html",
-    "title": "Development of an Autonomous Mobile Robotic Manipulator with Performance Augmentation for Large-Scale Industrial Manufacturing",
-    "section": "",
-    "text": "Featured in [1]–[4].\n\n\n\nReferences\n\n[1] V. L. Nguyen, “Gravity balancing of a two-degree-of-freedom parallel robotic platform with variable payloads,” Journal of Mechanical Design, vol. 145, no. 2, Dec. 2022, doi: 10.1115/1.4056258.\n\n\n[2] V. L. Nguyen, “Realization of a gear-spring balancer with variable payloads and its application to serial robots,” Journal of Mechanisms and Robotics, vol. 15, no. 4, Nov. 2022, doi: 10.1115/1.4055739.\n\n\n[3] V. L. Nguyen, “Design of a compact gear-spring mechanism for static balancing of variable payloads,” Journal of Mechanical Design, vol. 144, no. 12, Aug. 2022, doi: 10.1115/1.4055121.\n\n\n[4] V. L. Nguyen, “Gravity balancing design of a 3-DOF hybrid robotic manipulator with variable payloads,” Nov. 2021, doi: 10.1115/imece2021-69857."
-  },
-  {
-    "objectID": "content/research/featured/constant-force-2023/index.html",
-    "href": "content/research/featured/constant-force-2023/index.html",
-    "title": "A Novel Large-Stroke Constant Force Mechanism",
-    "section": "",
-    "text": "Featured in [1] and [2].\n\n\n\nReferences\n\n[1] V. L. Nguyen, “A novel adjustable constant-force mechanism based on spring and gear transmission,” in New advances in mechanisms, transmissions and applications, 2023, pp. 382–391.\n\n\n[2] V. L. Nguyen, “Design of an adjustable constant-force mechanism using a geared sarrus linkage and spring,” Mechanism and Machine Theory, vol. 189, p. 105417, 2023, doi: https://doi.org/10.1016/j.mechmachtheory.2023.105417."
-  },
-  {
-    "objectID": "content/people/members/toan.ld/index.html",
-    "href": "content/people/members/toan.ld/index.html",
-    "title": "Luu Duc Toan",
-    "section": "",
-    "text": "Lưu Đức Toàn"
+    "text": "Nguyễn Văn Thành Trí"
   },
   {
     "objectID": "content/people/members/nam.nv/index.html",
@@ -40,6 +19,41 @@
     "title": "Tran Duong Chinh",
     "section": "",
     "text": "Trần Dương Chính"
+  },
+  {
+    "objectID": "content/people/members/linh.nv/index.html",
+    "href": "content/people/members/linh.nv/index.html",
+    "title": "Nguyen Vu Linh",
+    "section": "",
+    "text": "Nguyễn Vũ Linh"
+  },
+  {
+    "objectID": "content/research/featured/development of an autonomous mobile robotic manipulator with performance augmentation for large-scale industrial manufacturing/index.html",
+    "href": "content/research/featured/development of an autonomous mobile robotic manipulator with performance augmentation for large-scale industrial manufacturing/index.html",
+    "title": "Development of an Autonomous Mobile Robotic Manipulator with Performance Augmentation for Large-Scale Industrial Manufacturing",
+    "section": "",
+    "text": "Featured in [1]–[4].\n\n\n\nReferences\n\n[1] V. L. Nguyen, “Gravity balancing of a two-degree-of-freedom parallel robotic platform with variable payloads,” Journal of Mechanical Design, vol. 145, no. 2, Dec. 2022, doi: 10.1115/1.4056258.\n\n\n[2] V. L. Nguyen, “Realization of a gear-spring balancer with variable payloads and its application to serial robots,” Journal of Mechanisms and Robotics, vol. 15, no. 4, Nov. 2022, doi: 10.1115/1.4055739.\n\n\n[3] V. L. Nguyen, “Design of a compact gear-spring mechanism for static balancing of variable payloads,” Journal of Mechanical Design, vol. 144, no. 12, Aug. 2022, doi: 10.1115/1.4055121.\n\n\n[4] V. L. Nguyen, “Gravity balancing design of a 3-DOF hybrid robotic manipulator with variable payloads,” Nov. 2021, doi: 10.1115/imece2021-69857."
+  },
+  {
+    "objectID": "content/research/featured/a novel large-stroke constant force mechanism/index.html",
+    "href": "content/research/featured/a novel large-stroke constant force mechanism/index.html",
+    "title": "A Novel Large-Stroke Constant Force Mechanism",
+    "section": "",
+    "text": "Featured in [1] and [2].\n\n\n\nReferences\n\n[1] V. L. Nguyen, “A novel adjustable constant-force mechanism based on spring and gear transmission,” in New advances in mechanisms, transmissions and applications, 2023, pp. 382–391.\n\n\n[2] V. L. Nguyen, “Design of an adjustable constant-force mechanism using a geared sarrus linkage and spring,” Mechanism and Machine Theory, vol. 189, p. 105417, 2023, doi: https://doi.org/10.1016/j.mechmachtheory.2023.105417."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Interactive Robot Design Lab",
+    "section": "",
+    "text": "Interactive Robot Design (IRod) Group is led by Dr. Nguyen Vu Linh at the College of Engineering and Computer Science, VinUniversity.\nIRod Group studies Advanced Mechanism Design, focusing on how reconfigurable and compliant systems can enable safer physical interactions. We apply this research to build the next generation of industrial grippers, surgical robots, and energy-harvesting systems. We are dedicated to solving challenges in human-robot coexistence through intelligent mechanical design.\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "content/research/index.html",
+    "href": "content/research/index.html",
+    "title": "Research & Publications",
+    "section": "",
+    "text": "Here is an overview of our lab’s research output.\n\n\nHighlightsPublication list\n\n\nHere are our major research highlights. Click a card to read the full breakdown and see the interactive charts.\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nA Design Approach for Gravity Compensators Using Planar Four-Bar Mechanisms and a Linear Spring\n\n\nThis project develops a design approach for gravity compensators using planar four-bar mechanisms and a linear spring. This work enables the development of a class of…\n\n\n\n\n\nJun 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nA Novel Large-Stroke Constant Force Mechanism\n\n\nThis work presents the design of a novel adjustable constant-force mechanism (CFM) using a geared Sarrus linkage and a linear spring. The uniqueness of this design is that…\n\n\n\n\n\nMay 26, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nDevelopment of an Autonomous Mobile Robotic Manipulator with Performance Augmentation for Large-Scale Industrial Manufacturing\n\n\nThe proposed research project is directly in line with advanced manufacturing by developing a novel autonomous mobile robotic manipulator with performance augmentation for…\n\n\n\n\n\nDec 13, 2022\n\n\n\n\n\nNo matching items\n\n\n\nA complete list of all publications, conference proceedings, and abstracts.\n\n\n    \n      \n      \n    \n\n\n\n\nDate\nTitle\nAuthor\nJournal/Conference\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "content/people/index.html",
@@ -98,11 +112,11 @@
     "text": "Lê Minh An"
   },
   {
-    "objectID": "content/people/members/linh.nv/index.html",
-    "href": "content/people/members/linh.nv/index.html",
-    "title": "Nguyen Vu Linh",
+    "objectID": "content/people/members/toan.ld/index.html",
+    "href": "content/people/members/toan.ld/index.html",
+    "title": "Luu Duc Toan",
     "section": "",
-    "text": "Nguyễn Vũ Linh"
+    "text": "Lưu Đức Toàn"
   },
   {
     "objectID": "content/people/members/tien.dn/index.html",
@@ -110,19 +124,5 @@
     "title": "Nguyen Duc Tien",
     "section": "",
     "text": "Nguyễn Đức Tiến"
-  },
-  {
-    "objectID": "content/people/members/tri.nvt/index.html",
-    "href": "content/people/members/tri.nvt/index.html",
-    "title": "Nguyen Van Thanh Tri",
-    "section": "",
-    "text": "Nguyễn Văn Thành Trí"
-  },
-  {
-    "objectID": "content/research/index.html",
-    "href": "content/research/index.html",
-    "title": "Research & Publications",
-    "section": "",
-    "text": "Here is an overview of our lab’s research output.\n\n\nHighlightsPublication list\n\n\nHere are our major research highlights. Click a card to read the full breakdown and see the interactive charts.\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nA Design Approach for Gravity Compensators Using Planar Four-Bar Mechanisms and a Linear Spring\n\n\nThis project develops a design approach for gravity compensators using planar four-bar mechanisms and a linear spring. This work enables the development of a class of…\n\n\n\n\n\nJun 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nA Novel Large-Stroke Constant Force Mechanism\n\n\nThis work presents the design of a novel adjustable constant-force mechanism (CFM) using a geared Sarrus linkage and a linear spring. The uniqueness of this design is that…\n\n\n\n\n\nMay 26, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nDevelopment of an Autonomous Mobile Robotic Manipulator with Performance Augmentation for Large-Scale Industrial Manufacturing\n\n\nThe proposed research project is directly in line with advanced manufacturing by developing a novel autonomous mobile robotic manipulator with performance augmentation for…\n\n\n\n\n\nDec 13, 2022\n\n\n\n\n\nNo matching items\n\n\n\nA complete list of all publications, conference proceedings, and abstracts.\n\n\n    \n      \n      \n    \n\n\n\n\nDate\nTitle\nAuthor\nJournal/Conference\n\n\n\n\n\nNo matching items"
   }
 ]
