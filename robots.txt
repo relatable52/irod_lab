@@ -1,1 +1,1 @@
-Sitemap: https://relatable52.github.io/irod_lab/sitemap.xml
+Sitemap: https://IROD-Lab.github.io/irod_lab_website/sitemap.xml
