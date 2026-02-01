@@ -7,13 +7,34 @@ about:
     image-shape: rounded
     image-alt: vinuniversity
 listing: 
-    contents: news
-    feed: true 
+    - id: news
+      contents: "news/*/index.qmd"
+      type: table
+      fields: [title, date]
+      sort: "date desc"
+      page-size: 5
+    - id: research-highlights
+      contents: "research/featured/*/index.qmd"
+      type: grid
+      fields: [image, title, description, date]
+      sort: "date desc"
+      page-size: 3
 ---
 
 **Interactive Robot Design (IRod) Group** is led by **Dr. Nguyen Vu Linh** at the College of Engineering and Computer Science, **VinUniversity**.
 
 IRod Group studies Advanced Mechanism Design, focusing on how reconfigurable and compliant systems can enable safer physical interactions. We apply this research to build the next generation of industrial grippers, surgical robots, and energy-harvesting systems. We are dedicated to solving challenges in human-robot coexistence through intelligent mechanical design.
+
+## Research Highlights
+
+See our latest research highlights.
+
+:::{#research-highlights}
+:::
+
+## News & Updates
+
+Publications, awards, and other news from our lab.
 
 :::{#news}
 :::

@@ -2,6 +2,7 @@
 title: "Palmer Penguins"
 author: "Cobblepot Analytics"
 format: dashboard
+draft: true
 ---
 
 ```{ojs}

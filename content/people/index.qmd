@@ -58,5 +58,3 @@ listing:
 :::
 
 ## Alumni
-
-Detailed list of our alumni.

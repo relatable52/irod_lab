@@ -10,17 +10,6 @@ listing:
     filter-ui: true
     page-size: 6   # Pagination (so many cards don't clutter the page)
     max-description-length: 175
-
-  # LISTING 2: The Full Reference List (Points to the .yml data)
-  - id: full-list
-    contents: full_pubs.yml
-    type: table
-    fields: [date, title, author, publication]
-    field-display-names: 
-      publication: "Journal/Conference"
-    sort: "date desc"
-    filter-ui: true   # Adds a search bar for the full list
-    page-size: 10     # Pagination (so 100 papers don't clutter the page)
 ---
 
 Here is an overview of our lab's research output.
@@ -35,11 +24,9 @@ Here are our major research highlights. Click a card to read the full breakdown 
 :::{#gallery}
 :::
 
-## Publication list
-A complete list of all publications, conference proceedings, and abstracts.
+## Publications
 
-:::{#full-list}
-:::
+{{< include ../../components/auto_pubs.qmd >}}
 
 :::
 

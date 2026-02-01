@@ -1,0 +1,35 @@
+---
+title: "Join Our Team"
+listing:
+  - id: openings-list
+    contents: "*/index.qmd"
+    type: default
+    fields: [title, date]
+    sort: "date desc"
+    page-size: 10
+---
+
+
+**We are always looking for highly motivated students and researchers interested in:**
+
+- Mechanism design and analysis
+- Robot and actuator design
+- Multibody Dynamic Systems
+- Novel mechanisms and applications
+- Physical human-robot interaction
+- Medical device innovation
+- Mechatronics and Control theory
+
+You may contact Dr. Vu Linh Nguyen (linh.nv2@vinuni.edu.vn) for further information.
+International students need to email me to receive support for your program's application, scholarships, arrival in Vietnam, etc.
+
+Join us in inventing the next-generation design for robots.
+
+Thank you!
+
+---
+
+## Available Positions
+
+:::{#openings-list}
+:::
