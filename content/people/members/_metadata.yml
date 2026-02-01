@@ -6,6 +6,7 @@ about:
     - icon: github
       text: Github
       href: https://github.com # Default link (optional)
-
+resources:
+  - "**/*"
 # You can even set a default image if they don't have one
 image: /images/blank.jpg

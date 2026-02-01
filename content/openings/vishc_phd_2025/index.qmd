@@ -1,0 +1,31 @@
+---
+title: "Call for PhD Applications in Rehabilitation Robotics | VinUniversity and University of Illinois at Urbana Champaign (UIUC)"
+date: 2025-11-20
+---
+
+The VinUni-Illinois Smart Health Center (VISHC) at VinUni is looking for some motivated PhD students working on the project **"The Future of Rehabilitation Robotics: A Framework for Human-Robot Interaction for Complete Training and Assessment"**.
+
+# Project Summary
+
+Stroke is a worldwide leading cause of physical disabilities. The most common impairment after a stroke is hemiparesis, which reduces the ability to walk or perform the activities of daily living. Muscle weakness reduces autonomy and independence; as a result, more than half of stroke survivors need care from relatives or friends for their daily activities. Robot-assisted rehabilitation is a particular focus of assistive technology that enables functional recovery from mild to severe neurologic injuries with high training intensity, repetitiveness, and adaptive support.
+
+This project will explore cutting-edge technologies in robotics, physical human-robot interaction, artificial intelligence (AI), and rehabilitation engineering to develop a novel exoskeleton robotic system to achieve complete training. This research will clarify the up-to-date design philosophy, redefine the definition of robots and intelligence means for multistage rehabilitation, and assess physical human-robot interaction to offer safe, robust, and reliable training with shared control (user preference and clinician prescription). If successful, the invented technologies will benefit the healthcare and robotics industries, transforming multistage rehabilitation from therapist-guided to robot-guided treatment.
+
+# Training Program
+
+Selected candidates will work towards their PhD degree granted by either VinUni or UIUC, and be co-advised by faculty from both universities (Dr Nguyen Vu Linh and Prof. Tran Trung Dung at VinUni, Prof. Yih-Kuen Jan, Prof. Manuel Enrique Hernandez, and Prof. George Heintz at UIUC). During their PhD studies, VISHC PhD students will spend 2 years studying and conducting research at the other university and can optionally seek a master’s degree from that university. As a Ph.D. student, you will take courses that will lead towards a PhD and allow you to gain various skills and expertise to support your future career, whether in industry or academia. PhD students are expected to publish a sufficient number of papers in top peer-reviewed journals and conferences according to the standards of world-class universities.
+
+# Eligibility
+
+- This project is open for Vietnamese students with a Bachelor’s or Master’s degree in mechanical engineering, electrical engineering, computer science, or a comparable field. Applicants should have strong academic performance, with a GPA of 3.2 or higher.
+- Expertise in robotics, machine design, intelligent systems, rehabilitation engineering, sensors, or signal processing is a plus.
+- You should be highly motivated, and independent with a high level of personal responsibility, good communication, and teamwork skills. English language requirements: IELTS Academic: 6.5 or above (or equivalent).
+
+# What we offer
+
+This program will cover all tuition fees, living expenses, health insurance, round-trip airfare, and related expenses for VISHC PhD students. The financial support for VISHC PhD students, while they are at UIUC, is provided by the Vingroup Scholarship Program for Overseas Study for Master’s and Doctoral Degrees. VISHC PhD students will receive a stipend of 10,000 USD/year when they study at VinUni and 25,000 USD/year when they study at UIUC.
+
+# How to Apply
+
+Please send your application, including your CV with the name of two recommenders and a list of publications, a summary of your research, BSc/MSc transcripts, and English proficiency proofs (if any), to Dr Nguyen Vu Linh (linh.nv2@vinuni.edu.vn).
+

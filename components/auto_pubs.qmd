@@ -1,0 +1,30 @@
+```{python}
+#| echo: false
+#| output: asis
+
+import sys
+import os
+
+# 1. Robustly find the scripts folder
+current = os.getcwd()
+# Walk up the tree until we find 'scripts'
+while "scripts" not in os.listdir(current):
+    parent = os.path.dirname(current)
+    if parent == current: # Reached root without finding scripts
+        break
+    current = parent
+
+# Add scripts to path if found
+script_path = os.path.join(current, "scripts")
+if script_path not in sys.path:
+    sys.path.append(script_path)
+
+# 2. Run the Auto-Renderer
+try:
+    import list_pubs
+    list_pubs.render_auto()
+except ImportError:
+    print("**Error:** Could not load 'scripts/list_pubs.py'. Check your folder structure.")
+except Exception as e:
+    print(f"**Error rendering publications:** {e}")
+```

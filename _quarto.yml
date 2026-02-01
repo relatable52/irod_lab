@@ -8,6 +8,30 @@ website:
   title: "Interactive Robot Design (IRoD)"
   favicon: images\favicon.png
   search: true
+  back-to-top-navigation: true
+  reader-mode: true
+  page-footer: 
+    border: true
+    # Left side: Location
+    left: 
+      - icon: geo-alt-fill
+        text: H114, VinUniversity, Hanoi, Vietnam
+
+    center: 
+      - text: "© 2024 Interactive Robot Design Lab"  
+      
+    # Right side: Social Icons
+    right:
+      - icon: envelope-fill
+        href: mailto:linh.nv2@vinuni.edu.vn
+      - text: linh.nv2@vinuni.edu.vn
+      - icon: google
+        href: https://scholar.google.com/citations?user=d1J4vbsAAAAJ&hl=en
+      - text: Nguyen V. Linh
+      - icon: github
+        href: https://github.com/IROD-Lab
+      - text: IROD-Lab
+
   navbar:
     logo: images\logo.png
     title: Interactive Robot Design Lab
@@ -20,10 +44,11 @@ website:
         href: content/research/index.qmd
       - text: "News"
         href: content/news/index.qmd
-      - text: "Blog"
-        href: content/blog/index.qmd
       - text: "Openings"
         href: content/openings/index.qmd
+    tools:
+      - icon: github
+        href: https://github.com/IROD-Lab
 
 format:
   html:
@@ -32,6 +57,3 @@ format:
       dark: darkly
     css: styles.css
     toc: true
-
-execute: 
-  freeze: auto

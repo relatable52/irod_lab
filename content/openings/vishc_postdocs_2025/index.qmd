@@ -1,0 +1,30 @@
+---
+title: "Call for Postdoc Applications in Rehabilitation Robotics | VinUniversity and University of Illinois at Urbana Champaign (UIUC)"
+description: "The VinUni-Illinois Smart Health Center (VISHC) at VinUni is looking for a Vietnamese Postdoctoral Researcher working on the project \"The Future of Rehabilitation Robotics: A Framework for Human-Robot Interaction for Complete Training and Assessment\"."
+date: 2025-11-20
+---
+
+The VinUni-Illinois Smart Health Center (VISHC) at VinUni is looking for a Vietnamese Postdoctoral Researcher working on the project **"The Future of Rehabilitation Robotics: A Framework for Human-Robot Interaction for Complete Training and Assessment"**.
+
+# Job Description
+
+This project will explore cutting-edge technologies in robotics, physical human-robot interaction, artificial intelligence (AI), and rehabilitation engineering to develop a novel exoskeleton robotic system to achieve complete training. This research will clarify the up-to-date design philosophy, redefine the definition of robots and intelligence means for multistage rehabilitation, and assess physical human-robot interaction to offer safe, robust, and reliable training with shared control (user preference and clinician prescription). The invented technologies will benefit the healthcare and robotics industries, transforming multistage rehabilitation from therapist-guided to robot-guided treatment.
+
+The VISHC Postdoc Fellow is expected to spend one year at UIUC and one year at VinUni, in any order, and be co-advised by faculty from both universities (Dr Nguyen Vu Linh and Prof. Tran Trung Dung at VinUni, Prof. Yih-Kuen Jan, Prof. Manuel Enrique Hernandez, and Prof. George Heintz at UIUC).
+
+# Requirements
+
+The ideal candidate has the following qualifications:
+
+- PhD degree in mechanical or electrical engineering, robotics, control theory, computer science, applied mathematics, or a closely related field.
+- Proven experience in autonomously managing professional responsibilities (teaching, research, interaction with third-party stakeholders, grant writing, guiding PhD/MSc students).
+- Strong publication record in the fields of robotics, machine design, intelligent systems, rehabilitation, sensors, or signal processing.
+- Experience with carrying out experimental work is a plus. Fluent communication skills in English, both written and oral.
+
+# What we offer
+
+Each VISHC Postdoc Fellow will receive a total salary of $90,000 for two years, of which $30,000 will be for conducting research at VinUni and $60,000 at UIUC.
+
+# How to Apply
+
+Please send your application, including your CV with the name of two recommenders and a list of publications, and a summary of your research, to Dr Nguyen Vu Linh (linh.nv2@vinuni.edu.vn). Review of applications will begin immediately and continue until the position is filled.
