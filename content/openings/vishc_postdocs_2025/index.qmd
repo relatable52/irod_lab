@@ -1,6 +1,5 @@
 ---
 title: "Call for Postdoc Applications in Rehabilitation Robotics | VinUniversity and University of Illinois at Urbana Champaign (UIUC)"
-description: "The VinUni-Illinois Smart Health Center (VISHC) at VinUni is looking for a Vietnamese Postdoctoral Researcher working on the project \"The Future of Rehabilitation Robotics: A Framework for Human-Robot Interaction for Complete Training and Assessment\"."
 date: 2025-11-20
 ---
 

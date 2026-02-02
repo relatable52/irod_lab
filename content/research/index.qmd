@@ -10,6 +10,7 @@ listing:
     filter-ui: true
     page-size: 6   # Pagination (so many cards don't clutter the page)
     max-description-length: 175
+title-block-banner: true
 ---
 
 Here is an overview of our lab's research output.

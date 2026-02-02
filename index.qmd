@@ -8,7 +8,8 @@ about:
     image-alt: vinuniversity
 listing: 
     - id: news
-      contents: "news/*/index.qmd"
+      contents: 
+        - "news/cms/*.qmd"
       type: table
       fields: [title, date]
       sort: "date desc"

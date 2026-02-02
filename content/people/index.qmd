@@ -35,6 +35,8 @@ listing:
     image-height: 200px
     include: 
         role: "ra"
+
+title-block-banner: true
 ---
 
 ## Principal Investigator

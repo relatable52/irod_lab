@@ -1,0 +1,14 @@
+---
+title: "Lab News"
+description: "Latest updates, awards, and events from the Interactive Robot Design Lab."
+listing:
+  contents: "cms/*.qmd"       # Lists all other .qmd files in this folder
+  sort: "date desc" # Newest first
+  type: default     # Options: default, table, grid, date-read
+  categories: true  # Adds a sidebar filter for tags (e.g. "Awards", "Papers")
+  sort-ui: false    # Hide the "Sort By" dropdown (cleaner look)
+  filter-ui: true   # Keep the Search bar
+  fields: [date, title, description, categories, image]
+  image-placeholder: "/images/robot.jpg" # Fallback if a post has no image
+title-block-banner: true
+---

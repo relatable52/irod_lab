@@ -2,11 +2,14 @@
 title: "Join Our Team"
 listing:
   - id: openings-list
-    contents: "*/index.qmd"
+    contents: 
+      - "*/index.qmd"
+      - "cms/*.qmd"
     type: default
     fields: [title, date]
     sort: "date desc"
     page-size: 10
+title-block-banner: true
 ---
 
 
