@@ -3,10 +3,6 @@ backend:
   branch: main
 
 publish_mode: editorial_workflow
-  
-# This is the magic switch. 
-# It tells CMS: "Don't talk to GitHub. Talk to the local proxy."
-local_backend: true 
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"

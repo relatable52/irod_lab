@@ -4,6 +4,7 @@ project:
   resources: 
     - "images/"
     - "admin/**"
+    - "email_templates/**"
 
 website:
   title: "Interactive Robot Design (IRoD)"
