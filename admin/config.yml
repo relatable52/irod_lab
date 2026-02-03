@@ -2,6 +2,8 @@ backend:
   name: github
   repo: IROD-Lab/irod_lab_website
   branch: main
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
 
 publish_mode: editorial_workflow
 
@@ -31,3 +33,27 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "members"
+    label: "Lab Members"
+    folder: "members"
+    create: true
+    slug: "{{slug}}/index"
+    path: "{{slug}}/index"
+    
+    # 1. This tells CMS: "Save uploaded images right here, next to the index.qmd file"
+    media_folder: "" 
+    public_folder: ""
+
+    fields:
+      - {label: "Full Name", name: "title", widget: "string"}
+      - {label: "Role", name: "role", widget: "select", options: ["msc", "phd"]}
+      
+      # 2. THE IMAGE FIELD
+      # 'required: false' is crucial. If they don't upload a photo, 
+      # Quarto will fall back to the default '/images/blank.jpg' in your metadata.yml
+      - label: "Profile Image"
+        name: "image"
+        widget: "image"
+        required: false
+        
+      - {label: "Bio", name: "body", widget: "markdown"}
