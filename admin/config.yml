@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: IROD-Lab/irod_lab_website
   branch: main
 
 publish_mode: editorial_workflow
