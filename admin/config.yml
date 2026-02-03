@@ -16,37 +16,49 @@ collections:
     folder: "content/news/cms"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    path: "{{year}}-{{month}}-{{day}}-{{slug}}/index"
     extension: "qmd"
     format: "yaml-frontmatter"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
+
   - name: "openings"
     label: "Openings"
-    folder: "content/openings/cms"
+    folder: "content/openings/positions"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    path: "{{year}}-{{month}}-{{day}}-{{slug}}/index"
     extension: "qmd"
     format: "yaml-frontmatter"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
+
   - name: "members"
     label: "Lab Members"
     folder: "content/people/members"
     create: true
-    slug: "{{slug}}/index"
+    slug: "{{slug}}"
     path: "{{slug}}/index"
+    extension: "qmd"
+    format: "yaml-frontmatter"
     
     # 1. This tells CMS: "Save uploaded images right here, next to the index.qmd file"
     media_folder: "" 
     public_folder: ""
 
     fields:
-      - {label: "Full Name", name: "title", widget: "string"}
-      - {label: "Role", name: "role", widget: "select", options: ["msc", "phd"]}
+      - label: "Full Name"
+        name: "title"
+        widget: "string"
+
+      - label: "Role"
+        name: "role"
+        widget: "select"
+        options: ["msc", "phd", "pi", "ra", "alumni"]
       
       # 2. THE IMAGE FIELD
       # 'required: false' is crucial. If they don't upload a photo, 
@@ -56,4 +68,6 @@ collections:
         widget: "image"
         required: false
         
-      - {label: "Bio", name: "body", widget: "markdown"}
+      - label: "Bio" 
+        name: "body"
+        widget: "markdown"
