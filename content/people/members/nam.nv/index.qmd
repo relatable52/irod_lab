@@ -1,7 +1,6 @@
 ---
-title: "Nguyen Van Nam"
-role: "msc" 
-
+title: Nguyen Van Nam
+role: ra
+image: anh1.jpg
 ---
-
 Nguyễn Văn Nam
