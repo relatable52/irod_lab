@@ -1,6 +1,87 @@
 ---
 title: "Nguyen Vu Linh"
+subtitle: "Assistant Professor & Associate Program Director of Mechanical Engineering, VinUniversity"
 role: "pi" 
+image: "Nguyen Vu Linh (3).avif"
 ---
 
-Nguyễn Vũ Linh
+<div style="font-size: 0.8em; color: #666;">
+  <i class="bi bi-geo-alt-fill"></i> Vinhomes Ocean Park, Gia Lam District, Hanoi, Vietnam <br>
+  <i class="bi bi-envelope-fill"></i> linh.nv2@vinuni.edu.vn; vulinh09112@gmail.com <br>
+  <i class="bi bi-telephone-fill"></i> +84-378-395-506
+</div>
+
+Dr. Nguyen Vu Linh’s main research interests fall into the design of mechanical and robotic systems for energy savings, mechanism and machine theory with a focus on the design, modeling, control, and development of intelligent means, reconfigurable mechanisms, compliant robots, and flexible, lightweight wearable devices, human-robot co-existing means with safe physical interactions and collaborations. His research is applied to the development of industrial robots, surgical robots, assistive devices, robotic grippers, vibration isolators, and renewable energy harvesting systems.
+
+# Current Position
+
+| | | |
+|---|---|---|
+| **2023 – Pres.** | **Assistant Professor** & Associate Program Director of Mechanical Engineering | **VinUniversity** (QS 5 stars), Vietnam |
+: {tbl-colwidths="[15, 45, 40]"}
+
+# Professional Experience
+
+| | | |
+|---|---|---|
+| **2021 – 2023** | Assistant Professor, Dept. of Mechanical Engineering | **National Chin-Yi University of Technology**, Taiwan |
+| **2020 – 2021** | Postdoctoral Fellow (MOST) | **National Taiwan University of Science and Technology**, Taiwan |
+| **2013 – 2015** | CAD-CAM Engineer | **Framas Vietnam Co. Ltd**, Vietnam |
+: {tbl-colwidths="[15, 45, 40]"}
+
+# Education
+
+| | | |
+|---|---|---|
+| **2020** | Ph.D. in Mechanical Engineering | **National Taiwan University of Science and Technology**, Taiwan |
+: {tbl-colwidths="[15, 45, 40]"}
+
+# Teaching Courses
+- Graduate courses: Robotics, Analysis and Simulation of Dynamic Systems, Precision Manufacturing.
+- Undergraduate courses: Calculus, Statics, Thermodynamics, Sensors and Actuators, Mechatronics, System Dynamics and Control, Control System Theory and Design, Robotics and Automation, Mechanical Synthesis.
+
+# Publications
+
+# Awards
+- 8/2024: JMR Best Paper Honorable Mention Award, American Society of Mechanical Engineers (ASME) - Journal of Mechanisms and Robotics. (Link)
+- 5/2023: Best Application Paper, The 6th Conference on Mechanisms, Transmissions and Applications (MeTrApp), Poitiers, France.
+- 2022 Award for Outstanding Contribution in Peer Review, Mechanism and Machine Theory
+- 8/​2022: NCUT Excellent Research Performance Award.
+- 11/2020: Outstanding Doctoral Thesis Award (1st), The Chinese Society of Mechanism and Machine Theory (CSMMT), Taiwan.
+- 11/2020: Best Paper of the Conference – Merit Award, The 23rd National Conference on Mechanism and Machine Design, Tainan, Taiwan.
+- 8/2020: Finalist: Best Student Paper Award, The 23rd IFToMM Symposium on Robot Design, Dynamics and Control (ROMANSY), Japan.
+- 2017 – 2020: Full International Doctoral Program Scholarship, National Taiwan University of Science and Technology, Taiwan.
+- 2018: Outstanding Teaching Assistant Award, National Taiwan University of Science and Technology, Taiwan.
+- 2015 – 2017: Full International Master Program Scholarship, National Central University, Taiwan.
+- 2010 – 2013: Top 5 Undergraduate Academic Achievement Scholarship, Ho Chi Minh City University of Technology and Education, Vietnam.
+
+# Skills
+Solidworks, Creo (Pro-E), PowerShape, PowerMill, MSC Adams, Matlab/Simulink, Mathematica, C++
+
+# Services and Membership
+- General Chair: IFToMM 9th International Symposium on Robotics and Mechatronics (ISRM) (2026)
+- Associate Editor of International Journal of Advanced Robotic Systems
+- Chair/Co-chair, ASME IDETC-CIE 2023, 2024, and 2025, IEEE ROBIO 2024.
+- Member of Technical Committees for IFToMM Robotics and Mechatronics
+- Member of Technical Committees for IFToMM Linkages and Mechanical Controls
+- Membership of the American Society of Mechanical Engineers (ASME)
+- Reviewer of
+    - ASME Journal of Mechanisms and Robotics
+    - ASME Journal of Mechanical Design
+    - Mechanism and Machine Theory
+    - IEEE/ASME Transaction on Mechatronics
+    - IEEE Transaction on Robotics
+    - IEEE Robotics and Automation Letters
+
+# Referees
+1. [Chin-Hsing Kuo](http://scholars.uow.edu.au/display/chin-hsing_kuo), PhD
+
+Senior Lecturer, University of Wollongong, Australia
+
+2. [Terence Essomba](https://www.me.ncu.edu.tw/portfolio-item/%E4%BC%8A%E6%B3%B0%E9%BE%8D/), PhD
+
+Associate Professor, National Central University, Taiwan
+
+3. [Po Ting Lin](https://www.me.ntust.edu.tw/p/405-1005-58820,c2249.php?Lang=en), PhD
+
+Professor, National Taiwan University of Science and Technology, Taiwan

@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2022-04-15">
+<meta name="description" content="This research aims to present an analytical model to compensate for the compliance errors of a Delta parallel robot as the mini robot, which is mounted at the end effector of an articulated robot to form a macro-mini manipulator for milling operations. This model is derived from a passive compliance design via mechanical springs for the robot considering uncertainties in the joint stiffness. The significance of this design is that it allows determining the compliance parameters of the model by analytical formulas. Quantitative criteria, probabilistic error models, and numerical examples with milling-like trajectories are given to evaluate the effectiveness of the proposed model. Simulation analysis was performed for the Delta robot that identified the sensitivity of its compliance errors over the workspace. The positioning accuracy reliability of the robot was improved with the model, particularly its deflection accuracy along a prescribed trajectory was theoretically increased by 82.6 percent under an estimated process force. The amplification of the compliance errors was diminished when the standard deviation of the joint stiffness was varied.">
 
-<title>Nguyen Duc Tien – Interactive Robot Design (IRoD)</title>
+<title>Compliance error compensation of a robot end-effector with joint stiffness uncertainties for milling – Interactive Robot Design (IRoD)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +22,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -77,7 +99,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../../../styles.css">
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -295,30 +317,55 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-solana column-page">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Nguyen Duc Tien</h1>
-</div>
-<div class="quarto-title-meta column-page">
+<div class="quarto-about-marquee">
+  <div class="about-image-container">
+    <img src="Robotic_machining.avif" class="about-image " style="width: 100%;">
   </div>
-</header> 
-      <div class="about-contents"><main class="content column-page" id="quarto-document-content">
-
-<p>Nguyễn Đức Tiến</p>
-
-
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main></div>
+  <div class="about-contents">
+    <header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Compliance error compensation of a robot end-effector with joint stiffness uncertainties for milling</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">robotics</div>
+    <div class="quarto-category">control</div>
+    <div class="quarto-category">manufacturing</div>
+  </div>
+  </div>
+<div>
+  <div class="description">
+    This research aims to present an analytical model to compensate for the compliance errors of a Delta parallel robot as the mini robot, which is mounted at the end effector of an articulated robot to form a macro-mini manipulator for milling operations. This model is derived from a passive compliance design via mechanical springs for the robot considering uncertainties in the joint stiffness. The significance of this design is that it allows determining the compliance parameters of the model by analytical formulas. Quantitative criteria, probabilistic error models, and numerical examples with milling-like trajectories are given to evaluate the effectiveness of the proposed model. Simulation analysis was performed for the Delta robot that identified the sensitivity of its compliance errors over the workspace. The positioning accuracy reliability of the robot was improved with the model, particularly its deflection accuracy along a prescribed trajectory was theoretically increased by 82.6 percent under an estimated process force. The amplification of the compliance errors was diminished when the standard deviation of the joint stiffness was varied.
+  </div>
+</div>
+<div class="quarto-title-meta">
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">April 15, 2022</p>
     </div>
-    <img src="/images/blank.jpg" class="about-image
-  rounded " style="width: 15em;">
+  </div>
+  </div>
+</header> <main class="content" id="quarto-document-content">
+
+<p>Featured in <span class="citation" data-cites="nguyen2022compliance"><a href="#ref-nguyen2021gravity" role="doc-biblioref">[3]</a></span>.</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
+<div id="ref-nguyen2022compliance" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] </div><div class="csl-right-inline">V. L. Nguyen, C.-H. Kuo, and P. T. Lin, <span>“Compliance error compensation of a robot end-effector with joint stiffness uncertainties for milling: An analytical model,”</span> <em>Mechanism and Machine Theory</em>, vol. 170, p. 104717, 2022.</div>
+</div>
+<div id="ref-nguyen2022reliability" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] </div><div class="csl-right-inline">V. L. Nguyen, C.-H. Kuo, and P. T. Lin, <span>“Reliability-based analysis and optimization of the gravity balancing performance of spring-articulated serial robots with uncertainties,”</span> <em>Journal of Mechanisms and Robotics</em>, vol. 14, no. 3, p. 031016, 2022.</div>
+</div>
+<div id="ref-nguyen2021gravity" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] </div><div class="csl-right-inline">V. L. Nguyen, C.-H. Kuo, and P. T. Lin, <span>“Gravity balancing reliability and sensitivity analysis of robotic manipulators with uncertainties,”</span> in <em>International design engineering technical conferences and computers and information in engineering conference</em>, 2021, vol. 85444, p. V08AT08A024.</div>
+</div>
+</div></section></div></main> 
   </div>
 </div>
  <!-- /main -->

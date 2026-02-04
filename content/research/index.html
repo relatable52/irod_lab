@@ -85,9 +85,10 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-description','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+      valueNames: ['listing-image','listing-title','listing-description','listing-date','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      page: 6,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -375,11 +376,11 @@ window.Quarto = {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(9)</span></div><div class="category" data-category="Y29udHJvbA==">control <span class="quarto-category-count">(6)</span></div><div class="category" data-category="bWFudWZhY3R1cmluZw==">manufacturing <span class="quarto-category-count">(3)</span></div><div class="category" data-category="bWVjaGFuaXNtJTIwZGVzaWdu">mechanism design <span class="quarto-category-count">(7)</span></div><div class="category" data-category="bWVkaWNhbCUyMHJvYm90aWNz">medical robotics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cmVoYWJpbGl0YXRpb24=">rehabilitation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cm9ib3RpY3M=">robotics <span class="quarto-category-count">(9)</span></div></div></div>
 <!-- main -->
-<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
@@ -387,7 +388,6 @@ window.Quarto = {
 
 
 <p>Here is an overview of our lab’s research output.</p>
-<div class="column-page-inset-right">
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Highlights</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Publications</a></li></ul>
 <div class="tab-content">
@@ -395,13 +395,29 @@ window.Quarto = {
 <p>Here are our major research highlights. Click a card to read the full breakdown and see the interactive charts.</p>
 <div id="listing-gallery" class="quarto-listing quarto-listing-container-default">
 <div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-gallery-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-gallery'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-title" data-direction="asc">
+        Title
+      </option>
+      <option value="listing-date-sort" data-direction="asc">
+        Date - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Date - Newest
+      </option>
+    </select>
+  </div>
     <div class="input-group input-group-sm quarto-listing-filter">
       <span class="input-group-text"><i class="bi bi-search"></i></span>
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1717977600000" data-listing-file-modified-sort="1770112215288" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="quarto-post image-right" data-index="0" data-categories="cm9ib3RpY3MlMkNtZWNoYW5pc20lMjBkZXNpZ24lMkNjb250cm9s" data-listing-date-sort="1717977600000" data-listing-file-modified-sort="1770241133936" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
 <div class="thumbnail"><a href="../../content/research/featured/gravity-compensator-2022/index.html" class="no-external">
 
 <img loading="lazy" src="../../content/research/featured/gravity-compensator-2022/four-bar_robot.avif" class="thumbnail-image">
@@ -411,6 +427,15 @@ window.Quarto = {
 <h3 class="no-anchor listing-title">
 <a href="../../content/research/featured/gravity-compensator-2022/index.html" class="no-external">A Design Approach for Gravity Compensators Using Planar Four-Bar Mechanisms and a Linear Spring</a>
 </h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('cm9ib3RpY3M='); return false;">robotics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bWVjaGFuaXNtJTIwZGVzaWdu'); return false;">mechanism design</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y29udHJvbA=='); return false;">control</div>
+
+</div>
 <div class="delink listing-description"><a href="../../content/research/featured/gravity-compensator-2022/index.html" class="no-external">
 <p>This project develops a design approach for gravity compensators using planar four-bar mechanisms and a linear spring. This work enables the development of a class of…</p>
 </a></div>
@@ -423,7 +448,7 @@ Jun 10, 2024
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1685059200000" data-listing-file-modified-sort="1770112215287" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
+<div class="quarto-post image-right" data-index="1" data-categories="bWVjaGFuaXNtJTIwZGVzaWduJTJDcm9ib3RpY3MlMkNjb250cm9s" data-listing-date-sort="1685059200000" data-listing-file-modified-sort="1770241133935" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="5">
 <div class="thumbnail"><a href="../../content/research/featured/constant-force-2023/index.html" class="no-external">
 
 <img loading="lazy" src="../../content/research/featured/constant-force-2023/large-stroke.avif" class="thumbnail-image">
@@ -433,6 +458,15 @@ Jun 10, 2024
 <h3 class="no-anchor listing-title">
 <a href="../../content/research/featured/constant-force-2023/index.html" class="no-external">A Novel Large-Stroke Constant Force Mechanism</a>
 </h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('bWVjaGFuaXNtJTIwZGVzaWdu'); return false;">mechanism design</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cm9ib3RpY3M='); return false;">robotics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y29udHJvbA=='); return false;">control</div>
+
+</div>
 <div class="delink listing-description"><a href="../../content/research/featured/constant-force-2023/index.html" class="no-external">
 <p>This work presents the design of a novel adjustable constant-force mechanism (CFM) using a geared Sarrus linkage and a linear spring. The uniqueness of this design is that…</p>
 </a></div>
@@ -445,7 +479,7 @@ May 26, 2023
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1670889600000" data-listing-file-modified-sort="1770112215288" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
+<div class="quarto-post image-right" data-index="2" data-categories="cm9ib3RpY3MlMkNtYW51ZmFjdHVyaW5nJTJDbWVjaGFuaXNtJTIwZGVzaWdu" data-listing-date-sort="1670889600000" data-listing-file-modified-sort="1770241133937" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <div class="thumbnail"><a href="../../content/research/featured/mobile-manipulator-2024/index.html" class="no-external">
 
 <img loading="lazy" src="../../content/research/featured/mobile-manipulator-2024/robot-manufacturing.avif" class="thumbnail-image">
@@ -455,6 +489,15 @@ May 26, 2023
 <h3 class="no-anchor listing-title">
 <a href="../../content/research/featured/mobile-manipulator-2024/index.html" class="no-external">Development of an Autonomous Mobile Robotic Manipulator with Performance Augmentation for Large-Scale Industrial Manufacturing</a>
 </h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('cm9ib3RpY3M='); return false;">robotics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bWFudWZhY3R1cmluZw=='); return false;">manufacturing</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bWVjaGFuaXNtJTIwZGVzaWdu'); return false;">mechanism design</div>
+
+</div>
 <div class="delink listing-description"><a href="../../content/research/featured/mobile-manipulator-2024/index.html" class="no-external">
 <p>The proposed research project is directly in line with advanced manufacturing by developing a novel autonomous mobile robotic manipulator with performance augmentation for…</p>
 </a></div>
@@ -467,20 +510,217 @@ Dec 13, 2022
 </a>
 </div>
 </div>
+<div class="quarto-post image-right" data-index="3" data-categories="cm9ib3RpY3MlMkNjb250cm9sJTJDbWFudWZhY3R1cmluZw==" data-listing-date-sort="1649980800000" data-listing-file-modified-sort="1770241133936" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="5">
+<div class="thumbnail"><a href="../../content/research/featured/error-compensation-2022/index.html" class="no-external">
+
+<img loading="lazy" src="../../content/research/featured/error-compensation-2022/Robotic_machining.avif" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../content/research/featured/error-compensation-2022/index.html" class="no-external">Compliance error compensation of a robot end-effector with joint stiffness uncertainties for milling</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('cm9ib3RpY3M='); return false;">robotics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y29udHJvbA=='); return false;">control</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bWFudWZhY3R1cmluZw=='); return false;">manufacturing</div>
+
+</div>
+<div class="delink listing-description"><a href="../../content/research/featured/error-compensation-2022/index.html" class="no-external">
+<p>This research aims to present an analytical model to compensate for the compliance errors of a Delta parallel robot as the mini robot, which is mounted at the end effector…</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../../content/research/featured/error-compensation-2022/index.html" class="no-external">
+<div class="listing-date">
+Apr 15, 2022
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="cm9ib3RpY3MlMkNtYW51ZmFjdHVyaW5nJTJDY29udHJvbA==" data-listing-date-sort="1639958400000" data-listing-file-modified-sort="1770241133935" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail"><a href="../../content/research/featured/agv-2021/index.html" class="no-external">
+
+<img loading="lazy" src="../../content/research/featured/agv-2021/agv.avif" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../content/research/featured/agv-2021/index.html" class="no-external">Development of an Intelligent Automatic Guided Vehicle (AGV)</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('cm9ib3RpY3M='); return false;">robotics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bWFudWZhY3R1cmluZw=='); return false;">manufacturing</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y29udHJvbA=='); return false;">control</div>
+
+</div>
+<div class="delink listing-description"><a href="../../content/research/featured/agv-2021/index.html" class="no-external">
+<p>This research aims to develop a robotic manipulator with performance augmentation for an intelligent automatic guided vehicle (AGV). The robot augmentation is realized…</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../../content/research/featured/agv-2021/index.html" class="no-external">
+<div class="listing-date">
+Dec 20, 2021
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="cm9ib3RpY3MlMkNtZWNoYW5pc20lMjBkZXNpZ24lMkNjb250cm9s" data-listing-date-sort="1608422400000" data-listing-file-modified-sort="1770241133936" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail"><a href="../../content/research/featured/delta-robot-2020/index.html" class="no-external">
+
+<img loading="lazy" src="../../content/research/featured/delta-robot-2020/delta_robot_trans.avif" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../content/research/featured/delta-robot-2020/index.html" class="no-external">Gravity compensation design of delta parallel robots</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('cm9ib3RpY3M='); return false;">robotics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bWVjaGFuaXNtJTIwZGVzaWdu'); return false;">mechanism design</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y29udHJvbA=='); return false;">control</div>
+
+</div>
+<div class="delink listing-description"><a href="../../content/research/featured/delta-robot-2020/index.html" class="no-external">
+<p>This research applied the gear-spring module (GSM) for gravity compensation of the renowned Delta parallel robots. Design examples are implemented through a theoretical…</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../../content/research/featured/delta-robot-2020/index.html" class="no-external">
+<div class="listing-date">
+Dec 20, 2020
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-categories="cm9ib3RpY3MlMkNtZWNoYW5pc20lMjBkZXNpZ24lMkNyZWhhYmlsaXRhdGlvbg==" data-listing-date-sort="1576800000000" data-listing-file-modified-sort="1770241133937" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail"><a href="../../content/research/featured/lower-limb-rehab-2019/index.html" class="no-external">
+
+<img loading="lazy" data-src="../../content/research/featured/lower-limb-rehab-2019/rehab.avif" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../content/research/featured/lower-limb-rehab-2019/index.html" class="no-external">A gravity-balanced reconfigurable mechanism for lower-limb rehabilitation</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('cm9ib3RpY3M='); return false;">robotics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bWVjaGFuaXNtJTIwZGVzaWdu'); return false;">mechanism design</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cmVoYWJpbGl0YXRpb24='); return false;">rehabilitation</div>
+
+</div>
+<div class="delink listing-description"><a href="../../content/research/featured/lower-limb-rehab-2019/index.html" class="no-external">
+<p>This research introduced a gravity-balanced reconfigurable mechanism for lower-limb rehabilitation. The unique feature of this design is that it uses a single counterweight…</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../../content/research/featured/lower-limb-rehab-2019/index.html" class="no-external">
+<div class="listing-date">
+Dec 20, 2019
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-categories="cm9ib3RpY3MlMkNtZWNoYW5pc20lMjBkZXNpZ24lMkNjb250cm9s" data-listing-date-sort="1576368000000" data-listing-file-modified-sort="1770241133937" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail"><a href="../../content/research/featured/serial-manipulator-2019/index.html" class="no-external">
+
+<img loading="lazy" data-src="../../content/research/featured/serial-manipulator-2019/serial.avif" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../content/research/featured/serial-manipulator-2019/index.html" class="no-external">Gravity compensation for serial robotic manipulators</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('cm9ib3RpY3M='); return false;">robotics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bWVjaGFuaXNtJTIwZGVzaWdu'); return false;">mechanism design</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y29udHJvbA=='); return false;">control</div>
+
+</div>
+<div class="delink listing-description"><a href="../../content/research/featured/serial-manipulator-2019/index.html" class="no-external">
+<p>Gravity compensation using mechanical springs allows eliminating the gravitational effect on robotic manipulators, thereby reducing the actuation energy and improving…</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../../content/research/featured/serial-manipulator-2019/index.html" class="no-external">
+<div class="listing-date">
+Dec 15, 2019
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="8" data-categories="cm9ib3RpY3MlMkNtZWRpY2FsJTIwcm9ib3RpY3MlMkNtZWNoYW5pc20lMjBkZXNpZ24=" data-listing-date-sort="1513728000000" data-listing-file-modified-sort="1770241133937" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail"><a href="../../content/research/featured/spherical-manipulator-2017/index.html" class="no-external">
+
+<img loading="lazy" data-src="../../content/research/featured/spherical-manipulator-2017/spherical.avif" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../content/research/featured/spherical-manipulator-2017/index.html" class="no-external">A spherical decoupled robotic manipulator for neuroendoscopy</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('cm9ib3RpY3M='); return false;">robotics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bWVkaWNhbCUyMHJvYm90aWNz'); return false;">medical robotics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bWVjaGFuaXNtJTIwZGVzaWdu'); return false;">mechanism design</div>
+
+</div>
+<div class="delink listing-description"><a href="../../content/research/featured/spherical-manipulator-2017/index.html" class="no-external">
+<p>This project aims to develop a robotic manipulator for neuroendoscopy. The manipulator is constructed based on a novel five-bar spherical decoupled mechanism that can…</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../../content/research/featured/spherical-manipulator-2017/index.html" class="no-external">
+<div class="listing-date">
+Dec 20, 2017
+</div>
+</a>
+</div>
+</div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
+<nav id="gallery-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<section id="journal-articles" class="level3">
+<h3 class="anchored" data-anchor-id="journal-articles">Journal Articles</h3>
 <ol type="1">
-<li><p>Vu Nguyen (2023). <strong>A Novel Adjustable Constant-Force Mechanism Based on Spring and Gear Transmission.</strong> <em>New Advances in Mechanisms, Transmissions and Applications</em>.</p></li>
-<li><p>Vu Nguyen (2023). <strong>Design of an adjustable constant-force mechanism using a geared Sarrus linkage and spring.</strong> <em>Mechanism and Machine Theory</em>. [<a href="https://doi.org/10.1016/j.mechmachtheory.2023.105417">Link</a>]</p></li>
-<li><p>Vu Nguyen (2022). <strong>Gravity Balancing of a Two-Degree-of-Freedom Parallel Robotic Platform With Variable Payloads.</strong> <em>Journal of Mechanical Design</em>. [<a href="https://doi.org/10.1115/1.4056258">Link</a>]</p></li>
-<li><p>Vu Nguyen (2022). <strong>Realization of a Gear-Spring Balancer With Variable Payloads and Its Application to Serial Robots.</strong> <em>Journal of Mechanisms and Robotics</em>. [<a href="https://doi.org/10.1115/1.4055739">Link</a>]</p></li>
-<li><p>Vu Nguyen (2022). <strong>Design of a Compact Gear-Spring Mechanism for Static Balancing of Variable Payloads.</strong> <em>Journal of Mechanical Design</em>. [<a href="https://doi.org/10.1115/1.4055121">Link</a>]</p></li>
-<li><p>Vu Nguyen (2021). <strong>Gravity Balancing Design of a 3-DOF Hybrid Robotic Manipulator With Variable Payloads.</strong> <em>Volume 2B: Advanced Manufacturing</em>. [<a href="https://doi.org/10.1115/imece2021-69857">Link</a>]</p></li>
+<li>Vu Nguyen (2023). <strong>Design of an adjustable constant-force mechanism using a geared Sarrus linkage and spring.</strong> <em>Mechanism and Machine Theory</em>. [<a href="https://doi.org/10.1016/j.mechmachtheory.2023.105417">Link</a>]</li>
+<li>Vu Nguyen (2022). <strong>Gravity Balancing of a Two-Degree-of-Freedom Parallel Robotic Platform With Variable Payloads.</strong> <em>Journal of Mechanical Design</em>. [<a href="https://doi.org/10.1115/1.4056258">Link</a>]</li>
+<li>Vu Nguyen (2022). <strong>Realization of a Gear-Spring Balancer With Variable Payloads and Its Application to Serial Robots.</strong> <em>Journal of Mechanisms and Robotics</em>. [<a href="https://doi.org/10.1115/1.4055739">Link</a>]</li>
+<li>Vu Nguyen (2022). <strong>Design of a Compact Gear-Spring Mechanism for Static Balancing of Variable Payloads.</strong> <em>Journal of Mechanical Design</em>. [<a href="https://doi.org/10.1115/1.4055121">Link</a>]</li>
+<li>Vu Nguyen (2022). <strong>A design approach for gravity compensators using planar four-bar mechanisms and a linear spring.</strong> <em>Mechanism and Machine Theory</em>. [<a href="https://doi.org/10.1016/j.mechmachtheory.2022.104770">Link</a>]</li>
 </ol>
-</div>
+</section>
+<section id="conference-papers" class="level3">
+<h3 class="anchored" data-anchor-id="conference-papers">Conference Papers</h3>
+<ol type="1">
+<li>Vu Nguyen (2023). <strong>A Novel Adjustable Constant-Force Mechanism Based on Spring and Gear Transmission.</strong> <em>New Advances in Mechanisms, Transmissions and Applications</em>.</li>
+<li>Vu Nguyen (2021). <strong>Gravity Balancing Design of a 3-DOF Hybrid Robotic Manipulator With Variable Payloads.</strong> <em>Volume 2B: Advanced Manufacturing</em>. [<a href="https://doi.org/10.1115/imece2021-69857">Link</a>]</li>
+</ol>
+</section>
 </div>
 </div>
 </div>

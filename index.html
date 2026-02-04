@@ -113,7 +113,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-image','listing-title','listing-description','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      page: 3,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
@@ -165,7 +166,7 @@ window.Quarto = {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -386,15 +387,7 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-  <ul>
-  <li><a href="#research-highlights" id="toc-research-highlights" class="nav-link active" data-scroll-target="#research-highlights">Research Highlights</a></li>
-  <li><a href="#news-updates" id="toc-news-updates" class="nav-link" data-scroll-target="#news-updates">News &amp; Updates</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <div class="quarto-about-marquee">
   <div class="about-image-container">
@@ -411,7 +404,6 @@ window.Quarto = {
   </div>
 </header> <main class="content" id="quarto-document-content">
 
-
 <p><strong>Interactive Robot Design (IRod) Group</strong> is led by <strong>Dr.&nbsp;Nguyen Vu Linh</strong> at the College of Engineering and Computer Science, <strong>VinUniversity</strong>.</p>
 <p>IRod Group studies Advanced Mechanism Design, focusing on how reconfigurable and compliant systems can enable safer physical interactions. We apply this research to build the next generation of industrial grippers, surgical robots, and energy-harvesting systems. We are dedicated to solving challenges in human-robot coexistence through intelligent mechanical design.</p>
 <section id="research-highlights" class="level2">
@@ -419,7 +411,7 @@ window.Quarto = {
 <p>See our latest research highlights.</p>
 <div id="listing-research-highlights" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1717977600000" data-listing-file-modified-sort="1770112215288" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="g-col-1" data-index="0" data-categories="cm9ib3RpY3MlMkNtZWNoYW5pc20lMjBkZXNpZ24lMkNjb250cm9s" data-listing-date-sort="1717977600000" data-listing-file-modified-sort="1770241133936" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
 <a href="./content/research/featured/gravity-compensator-2022/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -440,7 +432,7 @@ Jun 10, 2024
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1685059200000" data-listing-file-modified-sort="1770112215287" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
+<div class="g-col-1" data-index="1" data-categories="bWVjaGFuaXNtJTIwZGVzaWduJTJDcm9ib3RpY3MlMkNjb250cm9s" data-listing-date-sort="1685059200000" data-listing-file-modified-sort="1770241133935" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="5">
 <a href="./content/research/featured/constant-force-2023/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -461,7 +453,7 @@ May 26, 2023
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1670889600000" data-listing-file-modified-sort="1770112215288" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
+<div class="g-col-1" data-index="2" data-categories="cm9ib3RpY3MlMkNtYW51ZmFjdHVyaW5nJTJDbWVjaGFuaXNtJTIwZGVzaWdu" data-listing-date-sort="1670889600000" data-listing-file-modified-sort="1770241133937" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="./content/research/featured/mobile-manipulator-2024/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -482,8 +474,137 @@ Dec 13, 2022
 </div>
 </div></a>
 </div>
+<div class="g-col-1" data-index="3" data-categories="cm9ib3RpY3MlMkNjb250cm9sJTJDbWFudWZhY3R1cmluZw==" data-listing-date-sort="1649980800000" data-listing-file-modified-sort="1770241133936" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="5">
+<a href="./content/research/featured/error-compensation-2022/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="./content/research/featured/error-compensation-2022/Robotic_machining.avif" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Compliance error compensation of a robot end-effector with joint stiffness uncertainties for milling
+</h5>
+<div class="card-text listing-description delink">
+<p>This research aims to present an analytical model to compensate for the compliance errors of a Delta parallel robot as the mini robot, which is mounted at the end effector…</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Apr 15, 2022
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="cm9ib3RpY3MlMkNtYW51ZmFjdHVyaW5nJTJDY29udHJvbA==" data-listing-date-sort="1639958400000" data-listing-file-modified-sort="1770241133935" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./content/research/featured/agv-2021/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="./content/research/featured/agv-2021/agv.avif" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Development of an Intelligent Automatic Guided Vehicle (AGV)
+</h5>
+<div class="card-text listing-description delink">
+<p>This research aims to develop a robotic manipulator with performance augmentation for an intelligent automatic guided vehicle (AGV). The robot augmentation is realized…</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Dec 20, 2021
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="cm9ib3RpY3MlMkNtZWNoYW5pc20lMjBkZXNpZ24lMkNjb250cm9s" data-listing-date-sort="1608422400000" data-listing-file-modified-sort="1770241133936" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./content/research/featured/delta-robot-2020/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="./content/research/featured/delta-robot-2020/delta_robot_trans.avif" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Gravity compensation design of delta parallel robots
+</h5>
+<div class="card-text listing-description delink">
+<p>This research applied the gear-spring module (GSM) for gravity compensation of the renowned Delta parallel robots. Design examples are implemented through a theoretical…</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Dec 20, 2020
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="6" data-categories="cm9ib3RpY3MlMkNtZWNoYW5pc20lMjBkZXNpZ24lMkNyZWhhYmlsaXRhdGlvbg==" data-listing-date-sort="1576800000000" data-listing-file-modified-sort="1770241133937" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./content/research/featured/lower-limb-rehab-2019/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="./content/research/featured/lower-limb-rehab-2019/rehab.avif" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+A gravity-balanced reconfigurable mechanism for lower-limb rehabilitation
+</h5>
+<div class="card-text listing-description delink">
+<p>This research introduced a gravity-balanced reconfigurable mechanism for lower-limb rehabilitation. The unique feature of this design is that it uses a single counterweight…</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Dec 20, 2019
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="7" data-categories="cm9ib3RpY3MlMkNtZWNoYW5pc20lMjBkZXNpZ24lMkNjb250cm9s" data-listing-date-sort="1576368000000" data-listing-file-modified-sort="1770241133937" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./content/research/featured/serial-manipulator-2019/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="./content/research/featured/serial-manipulator-2019/serial.avif" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Gravity compensation for serial robotic manipulators
+</h5>
+<div class="card-text listing-description delink">
+<p>Gravity compensation using mechanical springs allows eliminating the gravitational effect on robotic manipulators, thereby reducing the actuation energy and improving…</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Dec 15, 2019
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="8" data-categories="cm9ib3RpY3MlMkNtZWRpY2FsJTIwcm9ib3RpY3MlMkNtZWNoYW5pc20lMjBkZXNpZ24=" data-listing-date-sort="1513728000000" data-listing-file-modified-sort="1770241133937" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./content/research/featured/spherical-manipulator-2017/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="./content/research/featured/spherical-manipulator-2017/spherical.avif" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+A spherical decoupled robotic manipulator for neuroendoscopy
+</h5>
+<div class="card-text listing-description delink">
+<p>This project aims to develop a robotic manipulator for neuroendoscopy. The manipulator is constructed based on a novel five-bar spherical decoupled mechanism that can…</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Dec 20, 2017
+</div>
+</div>
+</div>
+</div></a>
+</div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
+<nav id="research-highlights-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div>
 </section>
 <section id="news-updates" class="level2">
