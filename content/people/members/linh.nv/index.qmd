@@ -1,10 +1,10 @@
 ---
-title: "Nguyen Vu Linh"
-subtitle: "Assistant Professor & Associate Program Director of Mechanical Engineering, VinUniversity"
-role: "pi" 
-image: "Nguyen Vu Linh (3).avif"
+title: Nguyen Vu Linh
+subtitle: Assistant Professor & Associate Program Director of Mechanical
+  Engineering, VinUniversity
+role: pi
+image: Nguyen Vu Linh (3).avif
 ---
-
 <div style="font-size: 0.8em; color: #666;">
   <i class="bi bi-geo-alt-fill"></i> Vinhomes Ocean Park, Gia Lam District, Hanoi, Vietnam <br>
   <i class="bi bi-envelope-fill"></i> linh.nv2@vinuni.edu.vn; vulinh09112@gmail.com <br>
@@ -15,65 +15,133 @@ Dr. Nguyen Vu Linh’s main research interests fall into the design of mechanica
 
 # Current Position
 
-| | | |
-|---|---|---|
+|                  |                                                                                |                                         |
+| ---------------- | ------------------------------------------------------------------------------ | --------------------------------------- |
 | **2023 – Pres.** | **Assistant Professor** & Associate Program Director of Mechanical Engineering | **VinUniversity** (QS 5 stars), Vietnam |
-: {tbl-colwidths="[15, 45, 40]"}
+
+: {tbl-colwidths="\[15, 45, 40]"}
 
 # Professional Experience
 
-| | | |
-|---|---|---|
-| **2021 – 2023** | Assistant Professor, Dept. of Mechanical Engineering | **National Chin-Yi University of Technology**, Taiwan |
-| **2020 – 2021** | Postdoctoral Fellow (MOST) | **National Taiwan University of Science and Technology**, Taiwan |
-| **2013 – 2015** | CAD-CAM Engineer | **Framas Vietnam Co. Ltd**, Vietnam |
-: {tbl-colwidths="[15, 45, 40]"}
+|                 |                                                      |                                                                  |
+| --------------- | ---------------------------------------------------- | ---------------------------------------------------------------- |
+| **2021 – 2023** | Assistant Professor, Dept. of Mechanical Engineering | **National Chin-Yi University of Technology**, Taiwan            |
+| **2020 – 2021** | Postdoctoral Fellow (MOST)                           | **National Taiwan University of Science and Technology**, Taiwan |
+| **2013 – 2015** | CAD-CAM Engineer                                     | **Framas Vietnam Co. Ltd**, Vietnam                              |
+
+: {tbl-colwidths="\[15, 45, 40]"}
 
 # Education
 
-| | | |
-|---|---|---|
+|          |                                 |                                                                  |
+| -------- | ------------------------------- | ---------------------------------------------------------------- |
 | **2020** | Ph.D. in Mechanical Engineering | **National Taiwan University of Science and Technology**, Taiwan |
-: {tbl-colwidths="[15, 45, 40]"}
+
+: {tbl-colwidths="\[15, 45, 40]"}
 
 # Teaching Courses
-- Graduate courses: Robotics, Analysis and Simulation of Dynamic Systems, Precision Manufacturing.
-- Undergraduate courses: Calculus, Statics, Thermodynamics, Sensors and Actuators, Mechatronics, System Dynamics and Control, Control System Theory and Design, Robotics and Automation, Mechanical Synthesis.
+
+* Graduate courses: Robotics, Analysis and Simulation of Dynamic Systems, Precision Manufacturing.
+* Undergraduate courses: Calculus, Statics, Thermodynamics, Sensors and Actuators, Mechatronics, System Dynamics and Control, Control System Theory and Design, Robotics and Automation, Mechanical Synthesis.
 
 # Publications
 
+## Journal Papers
+
+1. V.L. Nguyen*. Nonlinear Gear-Spring Design for Gravity Balancing of Robotic Manipulators with Variable Payloads: Methods and Comparison. ***ASME Journal of Mechanisms and Robotics***, 17 (11), p. 111003, 2025. ([Link](https://doi.org/10.1115/1.4068878))
+2. VL Nguyen*, L Nurahmi, VT Nguyen. Design of a Low-Frequency Vibration Isolator with Large-Stroke and Variable-Payload Capabilities Using Gear-Spring Units. ***ASME Journal of Mechanisms and Robotics***, 17 (10), p. 101007, 2025. ([Link](https://doi.org/10.1115/1.4068692))
+3. H. M. K. Hoang, H.-L. Cao, P. M. Q. Pham, A. Hajjar, V.L. Nguyen*. A novel shell-and-tube heat exchanger design with alternative inclined baffles. Case Studies in Thermal Engineering, 65, p. 105542, 2024. ([Link](https://doi.org/10.1016/j.csite.2024.105542))
+4. V.L. Nguyen*. A multi-objective optimal design method for gravity compensators with consideration of minimizing joint reaction forces. ***ASME Journal of Mechanisms and Robotics***, 16(8), p. 084501, 2024. ([Link](https://doi.org/10.1115/1.4064236))
+5. V.L. Nguyen*, C.-H. Kuo, and P. T. Lin. Performance analysis of gravity-balanced serial robotic manipulators under dynamic loads. ***Mechanism and Machine Theory***, 191, p. 105519, 2024. ([Link](https://doi.org/10.1016/j.mechmachtheory.2023.105519))
+6. V.L. Nguyen*. Design of an adjustable constant-force mechanism using a geared Sarrus linkage and spring. ***Mechanism and Machine Theory***, 189, p. 105417, 2023. ([Link](https://doi.org/10.1016/j.mechmachtheory.2023.105417))
+7. V.L. Nguyen*. Gravity Balancing of a 2-DoF Parallel Robotic Platform with Variable Payloads. ***ASME Journal of Mechanical Design***, 145 (2), p. 024501, 2023. ([Link](https://asmedigitalcollection.asme.org/mechanicaldesign/article-abstract/145/2/024501/1150862/Gravity-Balancing-of-a-Two-Degree-of-Freedom?redirectedFrom=fulltext))
+8. V.L. Nguyen*. Realization of a gear-spring balancer with variable payloads and its application to serial robots. ***ASME Journal of Mechanisms and Robotics***, 15 (4), p. 041013, 2023. ([Link](https://asmedigitalcollection.asme.org/mechanismsrobotics/article-abstract/15/4/041013/1146426/Realization-of-a-Gear-Spring-Balancer-With))
+9. V.L. Nguyen*. Design of a compact gear-spring mechanism for static balancing of variable payloads. ***ASME Journal of Mechanical Design***, 144(12), p. 123301, 2022. ([Link](https://asmedigitalcollection.asme.org/mechanicaldesign/article-abstract/144/12/123301/1143467/Design-of-a-Compact-Gear-Spring-Mechanism-for))
+10. V.L. Nguyen*. A design approach for gravity compensators using planar four-bar mechanisms and a linear spring. ***Mechanism and Machine Theory***, 172, p. 104770, 2022. ([Link](https://www.sciencedirect.com/science/article/pii/S0094114X22000453))
+11. V.L. Nguyen*, C.-H. Kuo, and P. T. Lin. Compliance error compensation of a robot end-effector with joint stiffness uncertainties for milling: An analytical model. ***Mechanism and Machine Theory***, 170, p. 104717, 2022. ([Link](https://www.sciencedirect.com/science/article/pii/S0094114X21004444?via%3Dihub))
+12. V.L. Nguyen*, C.-H. Kuo, and P. T. Lin. Reliability-based analysis and optimization of the gravity balancing performance of spring-articulated serial robots with uncertainties. ***ASME Journal of Mechanisms and Robotics***, 14(3), p. 031016, 2021. ([Link](https://asmedigitalcollection.asme.org/mechanismsrobotics/article/14/3/031016/1128643/Reliability-Based-Analysis-and-Optimization-of-the?casa_token=C3qS4-Oh8w0AAAAA:xsJtV17clX-RGxpJyh9JZWYK-rkc0co0CdnGV9uvaYTUR7sfyamtDoDBPdKVsxfOrfwiCobW))
+13. C.-H. Kuo, V.L. Nguyen, D. Robertson, L.-T. Chou, and J.L. Herder. Statically Balancing a Reconfigurable Mechanism by Using One Passive Energy Element Only-A Case Study. ***ASME Journal of Mechanisms and Robotics***, 13(4), p. 040904, 2021. ([Link](https://asmedigitalcollection.asme.org/mechanismsrobotics/article-abstract/13/4/040904/1105903/Statically-Balancing-a-Reconfigurable-Mechanism-by))
+14. Z.Y. Chen, P.R. Liaw, V.L. Nguyen, and P.T Lin. Design of a high-payload Mecanum-wheel ground vehicle (MWGV). **Robotic Systems and Applications**, 1(1), pp.24-34, 2021 ([Link](https://www.jvejournals.com/article/22133)).
+15. V.L. Nguyen, C.-Y Lin, and C.-H. Kuo. Gravity Compensation Design of Delta Parallel Robots Using Gear-Spring Modules. ***Mechanism and Machine Theory***, 154, p. 104046, 2020. ([Link](https://www.sciencedirect.com/science/article/pii/S0094114X20302676))
+16. V.L. Nguyen, C.-Y Lin, and C.-H. Kuo. Gravity Compensation Design of Planar Articulated Robotic Arms Using the Gear-Spring Modules. ***ASME Journal of Mechanisms and Robotics***, 12(3), p. 031014, 2020. ([Link](https://asmedigitalcollection.asme.org/mechanismsrobotics/article/12/3/031014/1071525/Gravity-Compensation-Design-of-Planar-Articulated))
+17. V.L. Nguyen and C.-H. Kuo. An Analytical Stiffness Method for Spring-Articulated Planar Serial or Quasi-serial Manipulators Under Gravity and Arbitrary Load. ***Mechanism and Machine Theory***, 137, pp. 108-126, 2019. ([Link](https://www.sciencedirect.com/science/article/pii/S0094114X18321268))
+18. T. Essomba, V.L. Nguyen, and C.-T Wu. Optimization of a Spherical Decoupled Mechanism for Neuro-Endoscopy Based on Experimental Kinematic Data. ***Journal of Mechanics***, pp. 1-15, 2019. ([Link](https://www.cambridge.org/core/journals/journal-of-mechanics/article/optimization-of-a-spherical-decoupled-mechanism-for-neuroendoscopy-based-on-experimental-kinematic-data/02FC991ED85E255181E69211CA6172C7))
+19. T. Essomba and V.L. Nguyen. Kinematic Analysis of a New Five-Bar Spherical Decoupled Mechanism with Two-Degrees of Freedom Remote Center of Motion. ***Mechanism and Machine Theory***, 119, pp. 184-197, 2018. ([Link](https://www.sciencedirect.com/science/article/pii/S0094114X1630670X))
+
+## Conference Papers
+
+1. Q. P. M. Pham, H. Q. Nguyen, Q. M. Vo, T. D. Lai, H. V. T. Nguyen, V. L. Nguyen*. Towards a wearable passive lower-limb exoskeleton based on the compact gear-spring mechanism. IEEE International Conference on Robotics and Biomimetics (ROBIO), Bangkok, Thailand, Dec. 10-14, 2024, p. 114. ([Link](https://ieeexplore.ieee.org/abstract/document/10907335))
+2. V. L. Nguyen*. Realizing a novel variable stiffness actuator with a multi-pulley-spring system. The 2nd International Electronic Conference on Actuator Technology (IECAT), Online, Nov. 4-6, 2024, p. 098261. ([Link](https://sciforum.net/paper/view/19959))
+3. L. Nurahmi and V. L. Nguyen. Force reduction of 3-RPS parallel manipulator using mechanical springs. The ASME International Design Engineering Technical Conferences & Computers and Information in Engineering Conference (IDETC/CIE), JW Marriott, Washington, DC, USA, Aug. 25-28, 2024, p. IDETC2024-142830. ([Link](https://doi.org/10.1115/DETC2024-142830))
+4. V. L. Nguyen. Nonlinear spring design of a vibration isolator using a geared parallel mechanism. The 2nd International Electronic Conference on Machines and Applications, Virtual, Jun 18-20, 2024, p. 17997. ([Link](https://sciforum.net/paper/view/17997))
+5. D. A. K. To, H. P. Chau, and V. L. Nguyen. Design of a variable stiffness actuator based on a multi-pulley system with a spring. National Machanics Conference (IMECH45), Hanoi, April 9, 2024.
+6. H. P. Chau, T. M. Hoang, D. A. K. To, and V. L. Nguyen. EMG signal analysis and machine learning for abnormal movement identification. The International Conference on Intelligent Systems & Networks (ICISN 2024), Hanoi, March 23 1. 24, 2024. ([Link](https://link.springer.com/book/9789819755035?fbclid=IwZXh0bgNhZW0CMTEAAR3_JyPvaGLzmVdQlSCiaIuOfnx-PqlLO7ZnGDY6zfLGQjmpLrKIkvPAQJ8_aem_oW2NcKtX5ctxO2kQpRfqbw#about-this-book))
+7. H. P. Chau, T. M. Hoang, and V. L. Nguyen. A reconfigurable variable stiffness mechanism based on leaf spring and spiral cam. The 7th International Conference on Engineering Mechanics and Automation (ICEMA 2023), Hanoi, November 11 1. 12, 2023. ([Link](https://doi.org/10.15625/vap.2023.0123))
+8. H. M. K. Hoang, L. H. Cao, P. M. Q. Pham, A. Hajjar, L. V. Nguyen. Numerical investigation on a novel design of alternative inclined baffles for single shell-pass shell-tube heat exchanger. The 10th International Conference on Mechanical, Automotive and Materials Engineering (CMAME 2023), Da Nang, Vietnam, December 20 1. 22, 2023, p. E23-052-A.
+9. V. L. Nguyen. Compact gravity-balanced design of serial robots under payload variation. The 16th IFToMM World Congress (WC2023), Tokyo, Japan, November 5 1. 10, 2023, p. 192. ([Link](https://link.springer.com/chapter/10.1007/978-3-031-45709-8_35))
+10. V. L. Nguyen. A Novel Adjustable Constant-Force Mechanism Based on Spring and Gear Transmission. InIFToMM International Conference on Mechanisms, Transmissions and Applications (MeTrApp), Springer Nature Switzerland, April 16, 2023, pp. 382-391. ([Link](https://link.springer.com/chapter/10.1007/978-3-031-29815-8_37))
+11. V. L. Nguyen. Multi-objective optimal design of gravity compensators using Pareto front with Genetic algorithm, The ASME International Design Engineering Technical Conferences & Computers and Information in Engineering Conference (IDETC/CIE), Boston, MA, USA, Aug. 20-23, 2023, p. IDETC2023-112372. ([Link](https://doi.org/10.1115/DETC2023-112372))
+12. V. L. Nguyen. A Compact Gear-Spring Mechanism for Gravity Balancing a Weight-Varying Rotating Load. International Conference on Advanced Mechanism and Machine Technology (iCMMT), Kaohsiung, Taiwan, Nov. 11-12, 2022, p. 42.
+13. V.L. Nguyen, C.-H. Kuo, and P.T. Lin. A systematic evaluation of gear-spring mechanism for gravity compensation of serial robots. The 10th International Conference on Advanced Robotics and Intelligent Systems (ARIS), Taipei, Taiwan, August 24-27, 2022. (Accepted)
+14. V.L. Nguyen and C.-H. Kuo. Effect of dynamic loads on the gravity compensation design of serial robots. The 5th Jc-IFToMM International Symposium, Kyoto, Japan, July 16, 2022. ([Link](https://www.jstage.jst.go.jp/article/jciftomm/5/0/5_36/_article/-char/ja/))
+15. V. L. Nguyen, C.-H. Kuo, and P. T. Lin. A new class of spring four-bar mechanisms for gravity compensation. IFToMM Asian Mechanisms and Machine Science Conference Asian (MMS), Hanoi, Vietnam, Dec. 15-18, 2021, p. 038. ([Link](https://link.springer.com/chapter/10.1007/978-3-030-91892-7_28))
+16. V. L. Nguyen, Y.-C Lin, P. T. Lin, C.-H. Kuo. Configuration synthesis of spring four-bar mechanisms for gravity compensation. International Conference on Advanced Mechanism and Machine Technology (iCMMT), Hsinchu, Taiwan, Oct. 29-30, 2021, p. 60.
+17. V.L. Nguyen and C.-H. Kuo. Gravity compensation of a palletizing robot using a gear-spring mechanism. Australasian Conference on Robotics and Automation (ACRA), Virtual, Online, Dec. 6-8, 2021, p. 105.
+18. V. L. Nguyen, Y.-C Lin, P. T. Lin, C.-H. Kuo. Configuration synthesis of spring four-bar mechanisms for gravity compensation. International Conference on Advanced Mechanism and Machine Technology (iCMMT), Hsinchu, Taiwan, Oct. 29-30, 2021, p. 60.
+19. V.L. Nguyen. Gravity Compensation of Articulated Robots Using Spring Four-Bar Mechanisms. The IFToMM 7th International Symposium on Multibody Systems and Mechatronics (MuSMe), Córdoba, Argentina, October 12-15, p. 013, 2021. ([Link](https://link.springer.com/chapter/10.1007/978-3-030-88751-3_21))
+20. V.L. Nguyen. Gravity Balancing Design of a 3-DOF Hybrid Robotic Manipulator With Variable Payloads. ASME International Mechanical Engineering Congress & Exposition (IMECE), Virtual, Online, p. 69857, 2021. ([Link](https://asmedigitalcollection.asme.org/IMECE/proceedings-abstract/IMECE2021/V02BT02A055/1132466))
+21. V.L. Nguyen, C.-H. Kuo, and P.T. Lin. Reliability and sensibility analysis of gravity-balanced robotic manipulators with uncertain parameters. ASME International Design Engineering Technical Conferences & Computers and Information in Engineering Conference (IDETC/CIE), Virtual, Online, p. 66762, 2021. ([Link](https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-abstract/IDETC-CIE2021/85444/V08AT08A024/1128590))
+22. V.L. Nguyen, C.-H. Kuo, C.-Y. Lin, and P.T. Lin. Measurement and Uncertainty Assessment of Torque Reduction of A Five-Bar Gear-Spring Mechanism (GSM). The 44th *National Conference on Theoretical and Applied Mechanics (CTAM)*, November 26 1. 27, 2020, Yilan, Taiwan.
+23. V.L. Nguyen, C.-H. Kuo, C.-Y. Lin, and P.T. Lin. Improved Positioning Accuracy of a Delta-based Macro-Mini Manipulator with Passive Compliance. *The 23rd National Conference on Mechanism and Machine Design (CSMMT),* November 13, 2020, Tainan, Taiwan*.*
+24. Z.-Y. Chen, P.-R. Liaw, V.L. Nguyen, and P.T. Lin. Design and Manufacturing of a High-Payload Mecanum-Wheel Ground Vehicle (MWGV). The 23rd National Conference on Mechanism and Machine Design (CSMMT)*,* November 13, 2020, Tainan, Taiwan*.*
+25. V.L. Nguyen, C.-H. Kuo, and C.-Y Lin. Gravity Compensation of Delta Parallel Robot Using a Gear-Spring Mechanism. *The 23rd CISM IFToMM Symposium on Robot Design, Dynamics and Control (ROMANSY)*, September 20 1. 24, 2020, Sapporo, Japan. ([Link](https://link.springer.com/chapter/10.1007/978-3-030-58380-4_34))
+26. V.L. Nguyen and C.-H. Kuo. Performance Evaluation of a Class of Gravity-Compensated Gear-Spring Planar Articulated Manipulators. *The 6th IFToMM International Symposium on Robotics and Mechatronics (ISRM)*, Oct. 28 1. 30, 2019, Taiwan Tech, Taipei, Taiwan. ([Link](https://link.springer.com/chapter/10.1007/978-3-030-30036-4_3))
+27. V.L. Nguyen and C.-H. Kuo. A Gear-Slider Gravity Compensation Mechanism: Design and Experimental Study. *The International Design Engineering Technical Conferences & Computers and Information in Engineering Conference (IDETC-CIE)*, August 18 1. 21, 2019, Anaheim, CA, USA. ([Link](https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-abstract/IDETC-CIE2019/59247/V05BT07A009/1070039))
+28. C.-H. Kuo, V.L. Nguyen, and L.T. Chou. Static Balancing of a Reconfigurable Linkage with Switchable Mobility by Using A Single Counterweight. *The 4th IEEE/IFToMM International Conference on Reconfigurable Mechanisms and Robots (ReMAR)*,  June 20 1. 22, 2018, Delft, The Netherlands. ([Link](https://ieeexplore.ieee.org/abstract/document/8449903))
+29. T. Essomba and V.L. Nguyen. The Kinematic Analysis of a Novel Spherical Decoupled Mechanism 1. Toward A Robotic Manipulator for Neuroendoscopy. *The 5th International Conference on Advanced Technology Innovation (ICATI)*, June 30 1. July 3, 2016, Bali, Indonesia.
+30. V.L. Nguyen and T. Essomba. Kinematic Analysis of a Spherical Decoupled Mechanism Concept. *The 19th National Conference on Mechanism and Machine Design (CSMMT)*, October 2016, Pingtung, Taiwan.
+
+## Book Chapters
+
+1. V.L. Nguyen and C.-H. Kuo. A modularization approach for gravity compensation of planar articulated robotic manipulators. Gravity Compensation in Robotics, edited by Vigen Arakelian, Springer Nature Switzerland AG, Cham, Switzerland.
+
 # Awards
-- 8/2024: JMR Best Paper Honorable Mention Award, American Society of Mechanical Engineers (ASME) - Journal of Mechanisms and Robotics. (Link)
-- 5/2023: Best Application Paper, The 6th Conference on Mechanisms, Transmissions and Applications (MeTrApp), Poitiers, France.
-- 2022 Award for Outstanding Contribution in Peer Review, Mechanism and Machine Theory
-- 8/​2022: NCUT Excellent Research Performance Award.
-- 11/2020: Outstanding Doctoral Thesis Award (1st), The Chinese Society of Mechanism and Machine Theory (CSMMT), Taiwan.
-- 11/2020: Best Paper of the Conference – Merit Award, The 23rd National Conference on Mechanism and Machine Design, Tainan, Taiwan.
-- 8/2020: Finalist: Best Student Paper Award, The 23rd IFToMM Symposium on Robot Design, Dynamics and Control (ROMANSY), Japan.
-- 2017 – 2020: Full International Doctoral Program Scholarship, National Taiwan University of Science and Technology, Taiwan.
-- 2018: Outstanding Teaching Assistant Award, National Taiwan University of Science and Technology, Taiwan.
-- 2015 – 2017: Full International Master Program Scholarship, National Central University, Taiwan.
-- 2010 – 2013: Top 5 Undergraduate Academic Achievement Scholarship, Ho Chi Minh City University of Technology and Education, Vietnam.
+
+* 8/2024: JMR Best Paper Honorable Mention Award, American Society of Mechanical Engineers (ASME) - Journal of Mechanisms and Robotics. (Link)
+* 5/2023: Best Application Paper, The 6th Conference on Mechanisms, Transmissions and Applications (MeTrApp), Poitiers, France.
+* 2022 Award for Outstanding Contribution in Peer Review, Mechanism and Machine Theory
+* 8/​2022: NCUT Excellent Research Performance Award.
+* 11/2020: Outstanding Doctoral Thesis Award (1st), The Chinese Society of Mechanism and Machine Theory (CSMMT), Taiwan.
+* 11/2020: Best Paper of the Conference – Merit Award, The 23rd National Conference on Mechanism and Machine Design, Tainan, Taiwan.
+* 8/2020: Finalist: Best Student Paper Award, The 23rd IFToMM Symposium on Robot Design, Dynamics and Control (ROMANSY), Japan.
+* 2017 – 2020: Full International Doctoral Program Scholarship, National Taiwan University of Science and Technology, Taiwan.
+* 2018: Outstanding Teaching Assistant Award, National Taiwan University of Science and Technology, Taiwan.
+* 2015 – 2017: Full International Master Program Scholarship, National Central University, Taiwan.
+* 2010 – 2013: Top 5 Undergraduate Academic Achievement Scholarship, Ho Chi Minh City University of Technology and Education, Vietnam.
 
 # Skills
+
 Solidworks, Creo (Pro-E), PowerShape, PowerMill, MSC Adams, Matlab/Simulink, Mathematica, C++
 
 # Services and Membership
-- General Chair: IFToMM 9th International Symposium on Robotics and Mechatronics (ISRM) (2026)
-- Associate Editor of International Journal of Advanced Robotic Systems
-- Chair/Co-chair, ASME IDETC-CIE 2023, 2024, and 2025, IEEE ROBIO 2024.
-- Member of Technical Committees for IFToMM Robotics and Mechatronics
-- Member of Technical Committees for IFToMM Linkages and Mechanical Controls
-- Membership of the American Society of Mechanical Engineers (ASME)
-- Reviewer of
-    - ASME Journal of Mechanisms and Robotics
-    - ASME Journal of Mechanical Design
-    - Mechanism and Machine Theory
-    - IEEE/ASME Transaction on Mechatronics
-    - IEEE Transaction on Robotics
-    - IEEE Robotics and Automation Letters
+
+* General Chair: IFToMM 9th International Symposium on Robotics and Mechatronics (ISRM) (2026)
+* Associate Editor of International Journal of Advanced Robotic Systems
+* Chair/Co-chair, ASME IDETC-CIE 2023, 2024, and 2025, IEEE ROBIO 2024.
+* Member of Technical Committees for IFToMM Robotics and Mechatronics
+* Member of Technical Committees for IFToMM Linkages and Mechanical Controls
+* Membership of the American Society of Mechanical Engineers (ASME)
+* Reviewer of
+
+  * ASME Journal of Mechanisms and Robotics
+  * ASME Journal of Mechanical Design
+  * Mechanism and Machine Theory
+  * IEEE/ASME Transaction on Mechatronics
+  * IEEE Transaction on Robotics
+  * IEEE Robotics and Automation Letters
 
 # Referees
+
 1. [Chin-Hsing Kuo](http://scholars.uow.edu.au/display/chin-hsing_kuo), PhD
 
 Senior Lecturer, University of Wollongong, Australia
